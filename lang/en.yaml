@@ -1,0 +1,144 @@
+# English — source of truth. Values may contain Typst markup (_italic_, *bold*,
+# #link("url")[label], "\" line breaks, blank line = new paragraph). Keep the markup
+# when translating; translate only the human-readable words.
+
+meta:
+  couple: "Angelo & Teodora"
+  date: "MAY 13th 2028"
+
+ui:
+  highlights: "Local Highlights"
+  food: "Gastronomic Tips"
+
+cover:
+  eyebrow: "WELCOME TO OUR WEDDING"
+  title: "The Wedding Journal"
+  subtitle: "Celebrating the Marriage of"
+
+welcome:
+  heading: "Welcome Friends & Family!"
+  intro: |-
+    We are so thrilled to welcome you to Campania for our wedding on *May 13th, 2028*. This is the land of Napoli, the Amalfi Coast, and the birthplace of pizza — with countless hidden gems in between. We created this little guide so you can take your time here: explore the area, enjoy the local cuisine, and make lasting memories with us.
+  quote: |-
+    "We created this guide so you can turn our wedding into an unforgettable vacation!"
+  turn_page: |-
+    Turn the page for what to see, where to eat, and how to get around.
+
+caserta:
+  heading: "What to See & Where to Eat in Caserta"
+  intro: |-
+    Caserta is a hidden gem of Campania — a rich blend of history, culture, and gastronomy. Traces of the Roman Empire, like the _Acquedotto Carolino_ and the amphitheatre, contrast the grandeur of the _Reggia di Caserta_, which rivals _Versailles_ and is said to have far more beautiful gardens. And for food lovers this is paradise: here pizza is elevated to an art, and _Mozzarella di Bufala_ is not just a cheese but a culinary experience.
+  reggia:
+    title: "Reggia di Caserta"
+    body: |-
+      The crown jewel of Caserta and a UNESCO World Heritage Site — the largest royal palace in the world by volume. Wander its 1,200 rooms and grand staircase, then rent an e-bike to roam the 3 km Royal Park, its fountains, and the romantic _English Gardens_. Set aside at least half a day; it earns it.
+  casertavecchia:
+    title: "Casertavecchia"
+    body: |-
+      A medieval hilltop village 400 metres up, made for cobblestone strolls and dinner with a view as the evening lights come on.
+  anfiteatro:
+    title: "Anfiteatro Campano"
+    body: |-
+      A majestic Roman amphitheatre in Santa Maria Capua Vetere, second in size only to the Colosseum in Rome.
+  masanielli:
+    title: "I Masanielli — Francesco Martucci"
+    body: |-
+      Consistently ranked the world's \#1 pizzeria. _Book online 1–2 months ahead._
+  pepe:
+    title: "Pepe in Grani — Caiazzo"
+    body: |-
+      Fifteen minutes from Bellona and famous worldwide for Chef Franco Pepe's high-hydration doughs.
+  lecolonne:
+    title: "Le Colonne"
+    body: |-
+      A Michelin-starred kitchen that elevates the local _Mozzarella di Bufala_ to the level of culinary art.
+  explore: |-
+    There is no limit to the surprises here — wander the grand halls of the Reggia, step back in time at the Anfiteatro Campano, lose yourself in the medieval streets of Casertavecchia, and savor the world's finest pizza.
+
+napoli:
+  heading: "What to See & Where to Eat in Napoli"
+  intro: |-
+    _Johann Wolfgang von Goethe_ wrote, "See Naples and then die." It is a city that leaves you breathless: vibrant culture, layered history, and a rhythm all its own. Take the train from Caserta, lose yourself in the historic centre, have a walk by the sea, and more.
+  caption: |-
+    The postcard view from Posillipo — Mount Vesuvius over the Gulf of Naples
+  explore: |-
+    There is no limit to the surprises here — wander _Spaccanapoli_, meet the artisans of _San Gregorio Armeno_, stand before the _Cristo Velato_ in the Sansevero Chapel, explore the _Cursed Island of Gaiola_, and much more.
+  centro:
+    title: "Centro Storico"
+    body: |-
+      A UNESCO World Heritage site and one of Europe's most densely lived-in quarters, home to the Cathedral, the Royal Palace, and Castel dell'Ovo.
+  toledo:
+    title: "Stazione Metro Toledo"
+    body: |-
+      Regularly called one of the most beautiful metro stations in the world for its cascading light-and-mosaic "Crater de Luz".
+  poppella:
+    title: "Poppella — Fiocco di Neve"
+    body: |-
+      Home of the _Fiocco di Neve_, a cloud-soft, cream-filled pastry that has become viral over the past few years.
+  passione:
+    title: "Street Food — Passione di Sofì & co."
+    body: |-
+      For the city's beloved street food, try the _frittatina di pasta_, a _cuoppo_ of fried fishes and veggies, or a folded _pizza fritta_.
+  sfogliatella:
+    title: "Sfogliatella — Attanasio"
+    body: |-
+      Steps from the station, the shell-shaped _sfogliatella riccia_ comes out warm and crackling all morning long.
+
+amalfi:
+  heading: "What to See & Where to Eat in Amalfi Coast"
+  hero_title: "The Amalfi Coast"
+  intro: |-
+    The _Costiera Amalfitana_ is a UNESCO stretch of coastline where pastel villages cling to vertical cliffs, lemon groves perfume the air, and every bend of the road opens onto a new postcard. It rewards slow travel: take the ferry between towns, wander without a plan, and let the sea set the pace.
+  explore: |-
+    And there is no limit to the surprises — sail to _Capri_, _Ischia_, or _Procida_, walk the _Path of the Gods_ between sky and sea, or simply lose yourself in the charm of the coast.
+  positano:
+    title: "Positano"
+    body: |-
+      The coast's most photographed village — a cascade of pastel houses tumbling down the cliffside to _Spiaggia Grande_ and the sea. Climb (or descend) its stepped alleys past boutiques and bougainvillea, then reward yourself with a lemon granita by the water. Come for sunset and you will understand every postcard ever sent from here.
+  sorrento:
+    title: "Sorrento"
+    body: |-
+      The gateway to the coast, with sweeping views over the bay to Mount Vesuvius. Stroll the historic centre, sip a _limoncello_ on a terrace, and watch the sun sink into the sea.
+  vietri:
+    title: "Vietri sul Mare"
+    body: |-
+      The coast's eastern doorstep, famous for its hand-painted ceramics — the perfect, colourful souvenir to carry home.
+  posides:
+    title: "Seafood & Pasta — our pick"
+    body: |-
+      A non-traditional spot we hold dear: for a light, playful, and delicious meal, try _Posides_ in Positano! Otherwise, follow your instinct — pick any restaurant with a sea view and order the _colatura di alici_ pasta or _scialatielli ai frutti di mare_, and let the evening take its time.
+  granita:
+    title: "Granita al Limone & Limoncello"
+    body: |-
+      Local lemons are an institution — an ice-cold _limoncello_, a lemon _granita_, or a slice of _delizia al limone_.
+  salderiso:
+    title: "Sal De Riso — Minori"
+    body: |-
+      The coast's most celebrated pasticceria, birthplace of the _delizia al limone_ and its ricotta-and-pear cakes. Pistachio lovers: the _panarea cake_ is a must.
+
+info:
+  heading: "Key Wedding Logistics"
+  intro: |-
+    Here is the lay of the land. Base yourself in *Caserta*, join us for the wedding, and let the coast tempt you into a proper holiday — the map below traces the journey we would love you to make.
+  map_caption: |-
+    Our suggested journey — base in Caserta, day-trip to Napoli & Pompei, then unwind along the Amalfi Coast.
+  accommodations_title: "Accommodations"
+  accommodations_body: |-
+    We recommend *Caserta City Centre* as your main base. On the wedding day we will arrange *shuttle buses* to carry guests directly to the venue and back — schedule and pickup points to follow closer to the date.
+
+    _Venue & ceremony times:_ to be confirmed nearer the wedding. \
+    _Staying on to explore?_ Book a night or two on the coast in advance — it fills up fast in season.
+  transit_title: "Arrival & Transit"
+  transit_body: |-
+    *Airports* \
+    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45 min to Caserta by bus. \
+    #link("https://www.fiumicinoexpress.com/en/")[Rome Fiumicino (FCO)] — ~3 h via express bus to Caserta Nord. \
+    #link("https://www.fiumicinoexpress.com/en/")[Rome Ciampino (CIA)] — ~2 h via express bus to Caserta Nord.
+
+    *Wedding-day shuttles* \
+    Departure times and hotel pickup points will be confirmed closer to the date.
+  warning_title: "Exploring beyond Caserta"
+  warning_body: |-
+    Napoli is an easy train ride away, but the *Amalfi Coast takes planning*: renting a car is the most flexible option, though the coastal road gets crowded in peak season and at weekends. Ferries are a scenic alternative in summer. Plan your transport ahead and add a night or two nearby — turning the trip into the vacation it deserves to be!
+  recommendations: |-
+    A few starting points, not gospel — for stays, compare #link("https://www.booking.com")[Booking] or #link("https://www.airbnb.com")[Airbnb] around Caserta and the Amalfi Coast; for ferries, see #link("https://www.travelmar.it/en/")[Travelmar]. Do your own research too, and pick what suits your trip best.

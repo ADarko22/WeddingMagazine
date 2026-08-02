@@ -1,0 +1,144 @@
+# Italiano — prima stesura, da rivedere da un madrelingua.
+# Mantieni la formattazione Typst (_corsivo_, *grassetto*, #link("url")[etichetta],
+# "\" a fine riga = a capo, riga vuota = nuovo paragrafo). Traduci solo il testo.
+
+meta:
+  couple: "Angelo & Teodora"
+  date: "13 MAGGIO 2028"
+
+ui:
+  highlights: "Da Non Perdere"
+  food: "Consigli Gastronomici"
+
+cover:
+  eyebrow: "BENVENUTI AL NOSTRO MATRIMONIO"
+  title: "Il Diario di Nozze"
+  subtitle: "Celebrando il Matrimonio di"
+
+welcome:
+  heading: "Benvenuti Amici e Famiglia!"
+  intro: |-
+    Siamo felicissimi di darvi il benvenuto in Campania per il nostro matrimonio il *13 maggio 2028*. Questa è la terra di Napoli, della Costiera Amalfitana e della patria della pizza — con innumerevoli gemme nascoste nel mezzo. Abbiamo creato questa piccola guida perché possiate prendervi il vostro tempo: esplorate la zona, gustate la cucina locale e create ricordi indimenticabili insieme a noi.
+  quote: |-
+    «Abbiamo creato questa guida perché possiate trasformare il nostro matrimonio in una vacanza indimenticabile!»
+  turn_page: |-
+    Girate pagina per scoprire cosa vedere, dove mangiare e come spostarvi.
+
+caserta:
+  heading: "Cosa Vedere e Dove Mangiare a Caserta"
+  intro: |-
+    Caserta è una gemma nascosta della Campania — un ricco intreccio di storia, cultura e gastronomia. Le tracce dell'Impero Romano, come l'_Acquedotto Carolino_ e l'anfiteatro, contrastano con la grandezza della _Reggia di Caserta_, che rivaleggia con _Versailles_ e si dice abbia giardini ancora più belli. E per gli amanti del cibo questo è il paradiso: qui la pizza è elevata ad arte e la _Mozzarella di Bufala_ non è solo un formaggio, ma un'esperienza culinaria.
+  reggia:
+    title: "Reggia di Caserta"
+    body: |-
+      Il gioiello di Caserta e Sito Patrimonio dell'UNESCO — il più grande palazzo reale al mondo per volume. Percorrete le sue 1.200 stanze e lo scalone monumentale, poi noleggiate una e-bike per esplorare i 3 km del Parco Reale, le sue fontane e i romantici _Giardini all'Inglese_. Dedicategli almeno mezza giornata: se lo merita.
+  casertavecchia:
+    title: "Casertavecchia"
+    body: |-
+      Un borgo medievale in collina a 400 metri d'altezza, perfetto per passeggiate tra i vicoli acciottolati e una cena con vista mentre si accendono le luci della sera.
+  anfiteatro:
+    title: "Anfiteatro Campano"
+    body: |-
+      Un maestoso anfiteatro romano a Santa Maria Capua Vetere, secondo per grandezza solo al Colosseo di Roma.
+  masanielli:
+    title: "I Masanielli — Francesco Martucci"
+    body: |-
+      Costantemente classificata la pizzeria \#1 al mondo. _Prenotate online con 1–2 mesi di anticipo._
+  pepe:
+    title: "Pepe in Grani — Caiazzo"
+    body: |-
+      A quindici minuti da Bellona e famoso in tutto il mondo per gli impasti ad alta idratazione dello Chef Franco Pepe.
+  lecolonne:
+    title: "Le Colonne"
+    body: |-
+      Un ristorante stellato Michelin che eleva la _Mozzarella di Bufala_ locale a vera arte culinaria.
+  explore: |-
+    «Non c'è limite alle sorprese qui — passeggiate nelle grandi sale della Reggia, tornate indietro nel tempo all'Anfiteatro Campano, perdetevi nei vicoli medievali di Casertavecchia e assaporate la migliore pizza del mondo.»
+
+napoli:
+  heading: "Cosa Vedere e Dove Mangiare a Napoli"
+  intro: |-
+    _Johann Wolfgang von Goethe_ scrisse: «Vedi Napoli e poi muori.» È una città che ti lascia senza fiato: cultura vibrante, storia stratificata e un ritmo tutto suo. Prendete il treno da Caserta, perdetevi nel centro storico, fate una passeggiata sul lungomare e molto altro.
+  caption: |-
+    La vista da cartolina da Posillipo — il Vesuvio sul Golfo di Napoli
+  explore: |-
+    Non c'è limite alle sorprese qui — passeggiate per _Spaccanapoli_, incontrate gli artigiani di _San Gregorio Armeno_, ammirate il _Cristo Velato_ nella Cappella Sansevero, esplorate l'_Isola Maledetta della Gaiola_ e molto altro.
+  centro:
+    title: "Centro Storico"
+    body: |-
+      Sito Patrimonio dell'UNESCO e uno dei quartieri più densamente abitati d'Europa, ospita il Duomo, il Palazzo Reale e il Castel dell'Ovo.
+  toledo:
+    title: "Stazione Metro Toledo"
+    body: |-
+      Spesso definita una delle stazioni della metropolitana più belle del mondo per il suo scintillante mosaico di luci, il «Crater de Luz».
+  poppella:
+    title: "Poppella — Fiocco di Neve"
+    body: |-
+      La casa del _Fiocco di Neve_, un dolce soffice ripieno di crema diventato virale negli ultimi anni.
+  passione:
+    title: "Street Food — Passione di Sofì & co."
+    body: |-
+      Per lo street food amato dalla città, provate la _frittatina di pasta_, un _cuoppo_ di frittura di pesce e verdure, o una _pizza fritta_ ripiegata.
+  sfogliatella:
+    title: "Sfogliatella — Attanasio"
+    body: |-
+      A due passi dalla stazione, la _sfogliatella riccia_ a forma di conchiglia esce calda e croccante per tutta la mattina.
+
+amalfi:
+  heading: "Cosa Vedere e Dove Mangiare in Costiera Amalfitana"
+  hero_title: "La Costiera Amalfitana"
+  intro: |-
+    La _Costiera Amalfitana_ è un tratto di costa Patrimonio UNESCO dove villaggi color pastello si aggrappano a scogliere a picco, i limoneti profumano l'aria e ogni curva della strada apre una nuova cartolina. Premia il viaggio lento: prendete il traghetto tra i paesi, girovagate senza un piano e lasciate che sia il mare a dettare il ritmo.
+  explore: |-
+    E non c'è limite alle sorprese — salpate per _Capri_, _Ischia_ o _Procida_, percorrete il _Sentiero degli Dei_ tra cielo e mare, o semplicemente lasciatevi conquistare dal fascino della costa.
+  positano:
+    title: "Positano"
+    body: |-
+      Il villaggio più fotografato della costa — una cascata di case pastello che degradano lungo la scogliera fino alla _Spiaggia Grande_ e al mare. Salite (o scendete) i suoi vicoli a gradini tra boutique e bouganville, poi premiatevi con una granita al limone in riva al mare. Venite al tramonto e capirete ogni cartolina mai spedita da qui.
+  sorrento:
+    title: "Sorrento"
+    body: |-
+      La porta d'accesso alla costa, con ampie vedute sul golfo fino al Vesuvio. Passeggiate nel centro storico, sorseggiate un _limoncello_ su una terrazza e guardate il sole tuffarsi nel mare.
+  vietri:
+    title: "Vietri sul Mare"
+    body: |-
+      L'ingresso orientale della costa, famoso per le sue ceramiche dipinte a mano — il souvenir perfetto e colorato da portare a casa.
+  posides:
+    title: "Pesce & Pasta — la nostra scelta"
+    body: |-
+      Un locale non tradizionale a cui teniamo molto: per un pasto leggero, giocoso e delizioso, provate _Posides_ a Positano! Altrimenti, seguite l'istinto — scegliete un ristorante con vista sul mare e ordinate la pasta con _colatura di alici_ o gli _scialatielli ai frutti di mare_, e lasciate che la serata scorra con calma.
+  granita:
+    title: "Granita al Limone & Limoncello"
+    body: |-
+      I limoni locali sono un'istituzione — un _limoncello_ ghiacciato, una _granita_ al limone o una fetta di _delizia al limone_.
+  salderiso:
+    title: "Sal De Riso — Minori"
+    body: |-
+      La pasticceria più celebre della costa, culla della _delizia al limone_ e delle sue torte ricotta e pere. Per gli amanti del pistacchio, la _torta panarea_ è d'obbligo.
+
+info:
+  heading: "Informazioni Utili per il Matrimonio"
+  intro: |-
+    Ecco come orientarsi. Fate base a *Caserta*, unitevi a noi per il matrimonio e lasciate che la costa vi tenti verso una vera vacanza — la mappa qui sotto traccia il viaggio che ci piacerebbe faceste.
+  map_caption: |-
+    Il nostro itinerario consigliato — base a Caserta, gita a Napoli e Pompei, poi relax lungo la Costiera Amalfitana.
+  accommodations_title: "Alloggi"
+  accommodations_body: |-
+    Vi consigliamo il *centro di Caserta* come base principale. Il giorno del matrimonio organizzeremo *navette* per portare gli ospiti direttamente alla location e ritorno — orari e punti di ritrovo verranno comunicati più avanti.
+
+    _Location e orari della cerimonia:_ da confermare in prossimità del matrimonio. \
+    _Volete fermarvi a esplorare?_ Prenotate una notte o due sulla costa in anticipo — in alta stagione si riempie in fretta.
+  transit_title: "Arrivo & Trasporti"
+  transit_body: |-
+    *Aeroporti* \
+    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45 min per Caserta in autobus. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Fiumicino (FCO)] — ~3 h con autobus espresso per Caserta Nord. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Ciampino (CIA)] — ~2 h con autobus espresso per Caserta Nord.
+
+    *Navette del giorno del matrimonio* \
+    Orari e punti di ritrovo verranno confermati più avanti.
+  warning_title: "Esplorare oltre Caserta"
+  warning_body: |-
+    Napoli è comodamente raggiungibile in treno, ma la *Costiera Amalfitana richiede organizzazione*: noleggiare un'auto è l'opzione più flessibile, anche se la strada costiera si affolla in alta stagione e nei weekend. In estate i traghetti sono un'alternativa panoramica. Pianificate il trasporto in anticipo e aggiungete una notte o due nei dintorni — trasformando il viaggio nella vacanza che merita di essere!
+  recommendations: |-
+    Solo qualche punto di partenza, nulla di definitivo — per gli alloggi, confrontate #link("https://www.booking.com")[Booking] o #link("https://www.airbnb.com")[Airbnb] intorno a Caserta e alla Costiera Amalfitana; per i traghetti, vedete #link("https://www.travelmar.it/en/")[Travelmar]. Fate comunque le vostre ricerche e scegliete ciò che si adatta meglio al vostro viaggio.
