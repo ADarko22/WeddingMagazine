@@ -10,6 +10,25 @@ ui:
   highlights: "Local Highlights"
   food: "Gastronomic Tips"
 
+labels:
+  cover_place: "Campania · Italy"
+  welcome_kicker: "The Welcome"
+  welcome_sub: "A Letter to Our Guests"
+  journey_kicker: "The Journey"
+  caserta_kicker: "Caserta · Campania"
+  napoli_kicker: "Napoli · Campania"
+  amalfi_kicker: "The Amalfi Coast"
+  celebration_kicker: "The Celebration"
+  details_kicker: "The Details"
+  closing: "With love,"
+
+ph:
+  hero_portrait: "Hero portrait — full-bleed photo to add"
+  the_couple: "A favourite photo of us"
+  venue_photo: "The venue"
+  detail_photo: "A detail / still life"
+  story_todo: "« a few lines of our story to add here »"
+
 cover:
   eyebrow: "WELCOME TO OUR WEDDING"
   title: "The Wedding Journal"
@@ -18,7 +37,7 @@ cover:
 welcome:
   heading: "Welcome Friends & Family!"
   intro: |-
-    We are so thrilled to welcome you to Campania for our wedding on *May 13th, 2028*. This is the land of Napoli, the Amalfi Coast, and the birthplace of pizza — with countless hidden gems in between. We created this little guide so you can take your time here: explore the area, enjoy the local cuisine, and make lasting memories with us.
+    We are so thrilled to welcome you to Campania for our wedding on *May 13th, 2028*. This is the land of Napoli, the Amalfi Coast, and the birthplace of pizza — with countless hidden gems in between. We created this little guide so you can take your time to explore the area, enjoy the local cuisine, and make lasting memories with us.
   quote: |-
     "We created this guide so you can turn our wedding into an unforgettable vacation!"
   turn_page: |-
@@ -59,8 +78,6 @@ napoli:
   heading: "What to See & Where to Eat in Napoli"
   intro: |-
     _Johann Wolfgang von Goethe_ wrote, "See Naples and then die." It is a city that leaves you breathless: vibrant culture, layered history, and a rhythm all its own. Take the train from Caserta, lose yourself in the historic centre, have a walk by the sea, and more.
-  caption: |-
-    The postcard view from Posillipo — Mount Vesuvius over the Gulf of Naples
   explore: |-
     There is no limit to the surprises here — wander _Spaccanapoli_, meet the artisans of _San Gregorio Armeno_, stand before the _Cristo Velato_ in the Sansevero Chapel, explore the _Cursed Island of Gaiola_, and much more.
   centro:
@@ -117,16 +134,15 @@ amalfi:
       The coast's most celebrated pasticceria, birthplace of the _delizia al limone_ and its ricotta-and-pear cakes. Pistachio lovers: the _panarea cake_ is a must.
 
 info:
-  heading: "Key Wedding Logistics"
+  heading: "Getting Around & Where to Stay"
   intro: |-
-    Here is the lay of the land. Base yourself in *Caserta*, join us for the wedding, and let the coast tempt you into a proper holiday — the map below traces the journey we would love you to make.
+    Here is the lay of the land — everything you need to reach us and explore on your own. Base yourself in *Caserta*, then let the coast tempt you into a proper holiday. The map below traces the journey we would love you to make.
   map_caption: |-
-    Our suggested journey — base in Caserta, day-trip to Napoli & Pompei, then unwind along the Amalfi Coast.
-  accommodations_title: "Accommodations"
+    A sketch of some of the gems in Campania you should not miss when you visit.
+  accommodations_title: "Where to Stay"
   accommodations_body: |-
-    We recommend *Caserta City Centre* as your main base. On the wedding day we will arrange *shuttle buses* to carry guests directly to the venue and back — schedule and pickup points to follow closer to the date.
+    We recommend *Caserta City Centre* as your main base — central, well-connected, and close to the wedding-day shuttle pickup.
 
-    _Venue & ceremony times:_ to be confirmed nearer the wedding. \
     _Staying on to explore?_ Book a night or two on the coast in advance — it fills up fast in season.
   transit_title: "Arrival & Transit"
   transit_body: |-
@@ -135,10 +151,61 @@ info:
     #link("https://www.fiumicinoexpress.com/en/")[Rome Fiumicino (FCO)] — ~3 h via express bus to Caserta Nord. \
     #link("https://www.fiumicinoexpress.com/en/")[Rome Ciampino (CIA)] — ~2 h via express bus to Caserta Nord.
 
-    *Wedding-day shuttles* \
-    Departure times and hotel pickup points will be confirmed closer to the date.
+    *Getting around* \
+    Trains link Caserta to Napoli in ~40 min; for the Amalfi Coast a rental car or seasonal ferries work best.
   warning_title: "Exploring beyond Caserta"
   warning_body: |-
     Napoli is an easy train ride away, but the *Amalfi Coast takes planning*: renting a car is the most flexible option, though the coastal road gets crowded in peak season and at weekends. Ferries are a scenic alternative in summer. Plan your transport ahead and add a night or two nearby — turning the trip into the vacation it deserves to be!
   recommendations: |-
     A few starting points, not gospel — for stays, compare #link("https://www.booking.com")[Booking] or #link("https://www.airbnb.com")[Airbnb] around Caserta and the Amalfi Coast; for ferries, see #link("https://www.travelmar.it/en/")[Travelmar]. Do your own research too, and pick what suits your trip best.
+
+wedding_day:
+  heading: "The Wedding Day"
+  intro: |-
+    It all happens on *May 13th, 2028*. Here is the shape of the day so you know what to expect — exact times and addresses will be confirmed closer to the date.
+  timeline_title: "The Day, Hour by Hour"
+  timeline:
+    - ["16:00", "Ceremony", "The church ceremony — please arrive 20 minutes early."]
+    - ["17:30", "Reception", "Aperitivo and toasts at the reception venue."]
+    - ["18:30", "Dinner", "A long, joyful Campanian dinner."]
+    - ["22:30", "Cake", "Cutting of the cake and sweet table."]
+    - ["23:30", "Party", "Music and dancing into the night."]
+  details_title: "Venues & Shuttles"
+  venue_label: "Venues"
+  venue_body: |-
+    _Church:_ Basilica di Sant'Angelo In Formis | Via Luigi Baia, 120, 81043 Capua, CE. \
+    _Reception:_ Villa Althea Bellona | SP 333, 81041 Palombara, CE.
+  shuttle_label: "Shuttles"
+  shuttle_body: |-
+    We will arrange *shuttle buses* from Caserta City Centre to the venues and back. Pickup points and times will be shared closer to the date.
+  contact_label: "Help on the day"
+  contact_body: |-
+    For anything on the day, contact « name » at « phone number ».
+
+before_you_come:
+  heading: "Before You Come"
+  intro: |-
+    A few small things help us give you the very best day. If you can share these ahead of time, we will take care of the rest.
+  checklist_title: "Please let us know"
+  checklist:
+    - "*Dietary needs & allergies* — vegetarian, vegan, gluten-free, or any allergy, so the kitchen can look after you."
+    - "*Accessibility & special support* — step-free access, seating, or anything that makes the day easier."
+    - "*Plus-ones & children* — confirm who is coming, and any high-chair or kids' meal needs."
+    - "*Travel dates* — roughly when you arrive and leave, in case we can help coordinate."
+  rsvp_title: "RSVP"
+  rsvp_body: |-
+    Please reply by *April 1st, 2028*. RSVP and share the details above at « link or email », or reach us directly — we are always happy to help.
+
+quotes:
+  - text: "The world is a book, and those who do not travel read only one page."
+    author: "Saint Augustine"
+  - text: "To travel is to live."
+    author: "Hans Christian Andersen"
+  - text: "Love is composed of a single soul inhabiting two bodies."
+    author: "Aristotle"
+  - text: "A journey is best measured in friends, rather than miles."
+    author: "Tim Cahill"
+  - text: "Italy, and the spring, and first love all together should suffice to make the gloomiest person happy."
+    author: "Bertrand Russell"
+  - text: "Wherever you go becomes a part of you somehow."
+    author: "Anita Desai"

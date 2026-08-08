@@ -1,0 +1,211 @@
+# Română — traducere din en.yaml (sursa de adevăr). Păstrează formatarea Typst
+# (_italic_, *bold*, #link("url")[etichetă], "\" la final de rând = rând nou,
+# rând gol = paragraf nou). Traduce doar textul citit de oameni.
+
+meta:
+  couple: "Angelo & Teodora"
+  date: "13 MAI 2028"
+
+ui:
+  highlights: "Atracții Locale"
+  food: "Sfaturi Gastronomice"
+
+labels:
+  cover_place: "Campania · Italia"
+  welcome_kicker: "Bun Venit"
+  welcome_sub: "O scrisoare pentru invitații noștri"
+  journey_kicker: "Călătoria"
+  caserta_kicker: "Caserta · Campania"
+  napoli_kicker: "Napoli · Campania"
+  amalfi_kicker: "Coasta Amalfitană"
+  celebration_kicker: "Celebrarea"
+  details_kicker: "Detaliile"
+  closing: "Cu drag,"
+
+ph:
+  hero_portrait: "Portret — fotografie pe toată pagina, de adăugat"
+  the_couple: "O fotografie preferată cu noi"
+  venue_photo: "Locația"
+  detail_photo: "Un detaliu"
+  story_todo: "« câteva rânduri din povestea noastră, de adăugat aici »"
+
+cover:
+  eyebrow: "BINE AȚI VENIT LA NUNTA NOASTRĂ"
+  title: "Jurnalul de Nuntă"
+  subtitle: "Sărbătorind Căsătoria dintre"
+
+welcome:
+  heading: "Bine ați venit, prieteni și familie!"
+  intro: |-
+    Suntem nespus de bucuroși să vă întâmpinăm în Campania pentru nunta noastră din *13 mai 2028*. Este ținutul orașului Napoli, al Coastei Amalfitane și locul de naștere al pizzei — cu nenumărate comori ascunse între ele. Am creat acest mic ghid ca să aveți timp să explorați zona, să savurați bucătăria locală și să creați amintiri de neuitat alături de noi.
+  quote: |-
+    „Am creat acest ghid ca să transformați nunta noastră într-o vacanță de neuitat!”
+  turn_page: |-
+    Întoarceți pagina pentru a afla ce să vedeți, unde să mâncați și cum să vă deplasați.
+
+caserta:
+  heading: "Ce să Vedeți și Unde să Mâncați în Caserta"
+  intro: |-
+    Caserta este o comoară ascunsă a Campaniei — un amestec bogat de istorie, cultură și gastronomie. Urmele Imperiului Roman, precum _Acquedotto Carolino_ și amfiteatrul, contrastează cu măreția _Reggiei di Caserta_, care rivalizează cu _Versailles_ și se spune că are grădini mult mai frumoase. Iar pentru iubitorii de mâncare este un paradis: aici pizza este ridicată la rang de artă, iar _Mozzarella di Bufala_ nu este doar o brânză, ci o experiență culinară.
+  reggia:
+    title: "Reggia di Caserta"
+    body: |-
+      Bijuteria de coroană a orașului Caserta și sit din patrimoniul mondial UNESCO — cel mai mare palat regal din lume ca volum. Străbateți cele 1.200 de camere și scara monumentală, apoi închiriați o e-bike pentru a explora cei 3 km ai Parcului Regal, fântânile sale și romanticele _Grădini Englezești_. Rezervați-i cel puțin o jumătate de zi; o merită.
+  casertavecchia:
+    title: "Casertavecchia"
+    body: |-
+      Un sat medieval pe deal, la 400 de metri altitudine, făcut pentru plimbări pe caldarâm și o cină cu priveliște în timp ce se aprind luminile serii.
+  anfiteatro:
+    title: "Anfiteatro Campano"
+    body: |-
+      Un maiestuos amfiteatru roman din Santa Maria Capua Vetere, al doilea ca mărime după Colosseumul din Roma.
+  masanielli:
+    title: "I Masanielli — Francesco Martucci"
+    body: |-
+      Clasată constant drept pizzeria \#1 din lume. _Rezervați online cu 1–2 luni înainte._
+  pepe:
+    title: "Pepe in Grani — Caiazzo"
+    body: |-
+      La cincisprezece minute de Bellona și celebru în întreaga lume pentru aluaturile cu hidratare ridicată ale bucătarului Franco Pepe.
+  lecolonne:
+    title: "Le Colonne"
+    body: |-
+      Un restaurant cu stea Michelin care ridică _Mozzarella di Bufala_ locală la rang de artă culinară.
+  explore: |-
+    Nu există limită a surprizelor aici — plimbați-vă prin sălile grandioase ale Reggiei, întoarceți-vă în timp la Anfiteatro Campano, pierdeți-vă pe străzile medievale din Casertavecchia și savurați cea mai bună pizza din lume.
+
+napoli:
+  heading: "Ce să Vedeți și Unde să Mâncați în Napoli"
+  intro: |-
+    _Johann Wolfgang von Goethe_ scria: „Vezi Napoli și apoi mori.” Este un oraș care îți taie răsuflarea: cultură vibrantă, istorie în straturi și un ritm numai al lui. Luați trenul din Caserta, pierdeți-vă în centrul istoric, faceți o plimbare pe malul mării și multe altele.
+  explore: |-
+    Nu există limită a surprizelor aici — plimbați-vă pe _Spaccanapoli_, întâlniți meșteșugarii din _San Gregorio Armeno_, admirați _Cristo Velato_ în Capela Sansevero, explorați _Insula Blestemată Gaiola_ și multe altele.
+  centro:
+    title: "Centro Storico"
+    body: |-
+      Sit din patrimoniul mondial UNESCO și unul dintre cele mai dens locuite cartiere din Europa, găzduind Catedrala, Palatul Regal și Castel dell'Ovo.
+  toledo:
+    title: "Stazione Metro Toledo"
+    body: |-
+      Considerată frecvent una dintre cele mai frumoase stații de metrou din lume pentru mozaicul său de lumini în cascadă, „Crater de Luz”.
+  poppella:
+    title: "Poppella — Fiocco di Neve"
+    body: |-
+      Casa lui _Fiocco di Neve_, o prăjitură pufoasă ca norul, umplută cu cremă, devenită virală în ultimii ani.
+  passione:
+    title: "Street Food — Passione di Sofì & co."
+    body: |-
+      Pentru street food-ul îndrăgit al orașului, încercați _frittatina di pasta_, un _cuoppo_ de pește și legume prăjite sau o _pizza fritta_ împăturită.
+  sfogliatella:
+    title: "Sfogliatella — Attanasio"
+    body: |-
+      La câțiva pași de gară, _sfogliatella riccia_ în formă de scoică iese caldă și crocantă toată dimineața.
+
+amalfi:
+  heading: "Ce să Vedeți și Unde să Mâncați pe Coasta Amalfitană"
+  hero_title: "Coasta Amalfitană"
+  intro: |-
+    _Costiera Amalfitana_ este o fâșie de coastă din patrimoniul UNESCO, unde sate în culori pastelate se agață de faleze verticale, crângurile de lămâi parfumează aerul, iar fiecare curbă a drumului dezvăluie o nouă carte poștală. Răsplătește călătoria pe îndelete: luați feribotul între orașe, hoinăriți fără un plan și lăsați marea să dea ritmul.
+  explore: |-
+    Și nu există limită a surprizelor — navigați spre _Capri_, _Ischia_ sau _Procida_, parcurgeți _Cărarea Zeilor_ între cer și mare sau, pur și simplu, lăsați-vă cuceriți de farmecul coastei.
+  positano:
+    title: "Positano"
+    body: |-
+      Cel mai fotografiat sat al coastei — o cascadă de case pastelate care coboară pe faleză până la _Spiaggia Grande_ și la mare. Urcați (sau coborâți) aleile în trepte printre buticuri și bougainvillea, apoi răsfățați-vă cu o granita de lămâie lângă apă. Veniți la apus și veți înțelege fiecare carte poștală trimisă vreodată de aici.
+  sorrento:
+    title: "Sorrento"
+    body: |-
+      Poarta de acces spre coastă, cu priveliști ample peste golf până la Vezuviu. Plimbați-vă prin centrul istoric, savurați un _limoncello_ pe o terasă și priviți soarele cufundându-se în mare.
+  vietri:
+    title: "Vietri sul Mare"
+    body: |-
+      Pragul estic al coastei, faimos pentru ceramica pictată manual — suvenirul perfect și colorat de dus acasă.
+  posides:
+    title: "Fructe de Mare & Paste — alegerea noastră"
+    body: |-
+      Un local netradițional la care ținem mult: pentru o masă ușoară, jucăușă și delicioasă, încercați _Posides_ în Positano! Altfel, urmați-vă instinctul — alegeți orice restaurant cu vedere la mare și comandați pastele cu _colatura di alici_ sau _scialatielli ai frutti di mare_ și lăsați seara să curgă în voie.
+  granita:
+    title: "Granita al Limone & Limoncello"
+    body: |-
+      Lămâile locale sunt o instituție — un _limoncello_ rece ca gheața, o _granita_ de lămâie sau o felie de _delizia al limone_.
+  salderiso:
+    title: "Sal De Riso — Minori"
+    body: |-
+      Cea mai celebră cofetărie a coastei, locul de naștere al _delizia al limone_ și al torturilor sale cu ricotta și pere. Pentru iubitorii de fistic: _tortul panarea_ este obligatoriu.
+
+info:
+  heading: "Cum să vă Deplasați și Unde să Stați"
+  intro: |-
+    Iată cum stau lucrurile — tot ce vă trebuie ca să ajungeți la noi și să explorați pe cont propriu. Stabiliți-vă baza în *Caserta*, apoi lăsați coasta să vă ispitească spre o adevărată vacanță. Harta de mai jos schițează călătoria pe care ne-ar plăcea să o faceți.
+  map_caption: |-
+    Itinerarul nostru sugerat — bază în Caserta, excursie de o zi la Napoli și Pompei, apoi relaxare de-a lungul Coastei Amalfitane.
+  accommodations_title: "Unde să Stați"
+  accommodations_body: |-
+    Vă recomandăm *centrul orașului Caserta* ca bază principală — central, bine conectat și aproape de punctul de îmbarcare al navetelor din ziua nunții.
+
+    _Rămâneți să explorați?_ Rezervați din timp o noapte sau două pe coastă — se umple repede în sezon.
+  transit_title: "Sosire & Transport"
+  transit_body: |-
+    *Aeroporturi* \
+    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45 min până la Caserta cu autobuzul. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Fiumicino (FCO)] — ~3 h cu autobuzul expres până la Caserta Nord. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Ciampino (CIA)] — ~2 h cu autobuzul expres până la Caserta Nord.
+
+    *Deplasare* \
+    Trenurile leagă Caserta de Napoli în ~40 min; pentru Coasta Amalfitană sunt ideale o mașină închiriată sau feriboturile sezoniere.
+  warning_title: "Explorând dincolo de Caserta"
+  warning_body: |-
+    Napoli este ușor de ajuns cu trenul, dar *Coasta Amalfitană cere organizare*: închirierea unei mașini este opțiunea cea mai flexibilă, deși drumul de coastă se aglomerează în vârf de sezon și în weekend. Feriboturile sunt o alternativă panoramică vara. Planificați-vă transportul din timp și adăugați o noapte sau două în apropiere — transformând excursia în vacanța pe care o merită!
+  recommendations: |-
+    Câteva puncte de plecare, nimic bătut în cuie — pentru cazare, comparați #link("https://www.booking.com")[Booking] sau #link("https://www.airbnb.com")[Airbnb] în zona Caserta și a Coastei Amalfitane; pentru feriboturi, vedeți #link("https://www.travelmar.it/en/")[Travelmar]. Faceți-vă și propriile cercetări și alegeți ce se potrivește cel mai bine călătoriei voastre.
+
+wedding_day:
+  heading: "Ziua Nunții"
+  intro: |-
+    Totul se întâmplă pe *13 mai 2028*. Iată cum se conturează ziua, ca să știți la ce să vă așteptați — orele și adresele exacte vor fi confirmate mai aproape de dată.
+  timeline_title: "Ziua, Oră cu Oră"
+  timeline:
+    - ["16:00", "Ceremonia", "Ceremonia religioasă — vă rugăm să sosiți cu 20 de minute mai devreme."]
+    - ["17:30", "Recepția", "Aperitiv și toasturi la locația recepției."]
+    - ["18:30", "Cina", "O cină campaniană lungă și veselă."]
+    - ["22:30", "Tortul", "Tăierea tortului și masa cu dulciuri."]
+    - ["23:30", "Petrecerea", "Muzică și dans până noaptea târziu."]
+  details_title: "Locații & Navete"
+  venue_label: "Locații"
+  venue_body: |-
+    _Biserica:_ Basilica di Sant'Angelo In Formis | Via Luigi Baia, 120, 81043 Capua, CE. \
+    _Recepția:_ Villa Althea Bellona | SP 333, 81041 Palombara, CE.
+  shuttle_label: "Navete"
+  shuttle_body: |-
+    Vom organiza *autobuze-navetă* din centrul orașului Caserta către locații și retur. Punctele și orele de îmbarcare vor fi comunicate mai aproape de dată.
+  contact_label: "Ajutor în ziua nunții"
+  contact_body: |-
+    Pentru orice în ziua nunții, contactați « nume » la « număr de telefon ».
+
+before_you_come:
+  heading: "Înainte de a Veni"
+  intro: |-
+    Câteva lucruri mărunte ne ajută să vă oferim cea mai frumoasă zi. Dacă ni le puteți spune din timp, de rest ne ocupăm noi.
+  checklist_title: "Vă rugăm să ne spuneți"
+  checklist:
+    - "*Nevoi alimentare și alergii* — vegetarian, vegan, fără gluten sau orice alergie, ca bucătăria să aibă grijă de voi."
+    - "*Accesibilitate și sprijin special* — acces fără trepte, locuri pe scaun sau orice face ziua mai ușoară."
+    - "*Însoțitori și copii* — confirmați cine vine și eventualele nevoi de scaun înalt sau meniu pentru copii."
+    - "*Datele călătoriei* — aproximativ când sosiți și plecați, în caz că vă putem ajuta cu organizarea."
+  rsvp_title: "Confirmare de Participare"
+  rsvp_body: |-
+    Vă rugăm să răspundeți până pe *1 aprilie 2028*. Confirmați și trimiteți detaliile de mai sus la « link sau email », ori contactați-ne direct — suntem mereu bucuroși să ajutăm.
+
+quotes:
+  - text: "Lumea este o carte, iar cei care nu călătoresc citesc o singură pagină."
+    author: "Sfântul Augustin"
+  - text: "A călători înseamnă a trăi."
+    author: "Hans Christian Andersen"
+  - text: "Iubirea este alcătuită dintr-un singur suflet care locuiește în două trupuri."
+    author: "Aristotel"
+  - text: "O călătorie se măsoară cel mai bine în prieteni, nu în kilometri."
+    author: "Tim Cahill"
+  - text: "Italia, primăvara și prima iubire, toate laolaltă, ar trebui să fie de ajuns pentru a face fericită și cea mai posomorâtă persoană."
+    author: "Bertrand Russell"
+  - text: "Oriunde mergi devine cumva o parte din tine."
+    author: "Anita Desai"

@@ -10,6 +10,25 @@ ui:
   highlights: "Da Non Perdere"
   food: "Consigli Gastronomici"
 
+labels:
+  cover_place: "Campania · Italia"
+  welcome_kicker: "Il Benvenuto"
+  welcome_sub: "Una lettera ai nostri ospiti"
+  journey_kicker: "Il Viaggio"
+  caserta_kicker: "Caserta · Campania"
+  napoli_kicker: "Napoli · Campania"
+  amalfi_kicker: "La Costiera Amalfitana"
+  celebration_kicker: "La Celebrazione"
+  details_kicker: "I Dettagli"
+  closing: "Con amore,"
+
+ph:
+  hero_portrait: "Ritratto — foto a pagina intera da aggiungere"
+  the_couple: "Una nostra foto preferita"
+  venue_photo: "La location"
+  detail_photo: "Un dettaglio"
+  story_todo: "« qualche riga della nostra storia da aggiungere »"
+
 cover:
   eyebrow: "BENVENUTI AL NOSTRO MATRIMONIO"
   title: "Il Diario di Nozze"
@@ -53,14 +72,12 @@ caserta:
     body: |-
       Un ristorante stellato Michelin che eleva la _Mozzarella di Bufala_ locale a vera arte culinaria.
   explore: |-
-    «Non c'è limite alle sorprese qui — passeggiate nelle grandi sale della Reggia, tornate indietro nel tempo all'Anfiteatro Campano, perdetevi nei vicoli medievali di Casertavecchia e assaporate la migliore pizza del mondo.»
+    Non c'è limite alle sorprese qui — passeggiate nelle grandi sale della Reggia, tornate indietro nel tempo all'Anfiteatro Campano, perdetevi nei vicoli medievali di Casertavecchia e assaporate la migliore pizza del mondo.
 
 napoli:
   heading: "Cosa Vedere e Dove Mangiare a Napoli"
   intro: |-
     _Johann Wolfgang von Goethe_ scrisse: «Vedi Napoli e poi muori.» È una città che ti lascia senza fiato: cultura vibrante, storia stratificata e un ritmo tutto suo. Prendete il treno da Caserta, perdetevi nel centro storico, fate una passeggiata sul lungomare e molto altro.
-  caption: |-
-    La vista da cartolina da Posillipo — il Vesuvio sul Golfo di Napoli
   explore: |-
     Non c'è limite alle sorprese qui — passeggiate per _Spaccanapoli_, incontrate gli artigiani di _San Gregorio Armeno_, ammirate il _Cristo Velato_ nella Cappella Sansevero, esplorate l'_Isola Maledetta della Gaiola_ e molto altro.
   centro:
@@ -117,16 +134,15 @@ amalfi:
       La pasticceria più celebre della costa, culla della _delizia al limone_ e delle sue torte ricotta e pere. Per gli amanti del pistacchio, la _torta panarea_ è d'obbligo.
 
 info:
-  heading: "Informazioni Utili per il Matrimonio"
+  heading: "Come Muoversi e Dove Alloggiare"
   intro: |-
-    Ecco come orientarsi. Fate base a *Caserta*, unitevi a noi per il matrimonio e lasciate che la costa vi tenti verso una vera vacanza — la mappa qui sotto traccia il viaggio che ci piacerebbe faceste.
+    Ecco come orientarsi — tutto ciò che serve per raggiungerci ed esplorare in autonomia. Fate base a *Caserta*, poi lasciate che la costa vi tenti verso una vera vacanza. La mappa qui sotto traccia il viaggio che ci piacerebbe faceste.
   map_caption: |-
     Il nostro itinerario consigliato — base a Caserta, gita a Napoli e Pompei, poi relax lungo la Costiera Amalfitana.
-  accommodations_title: "Alloggi"
+  accommodations_title: "Dove Alloggiare"
   accommodations_body: |-
-    Vi consigliamo il *centro di Caserta* come base principale. Il giorno del matrimonio organizzeremo *navette* per portare gli ospiti direttamente alla location e ritorno — orari e punti di ritrovo verranno comunicati più avanti.
+    Vi consigliamo il *centro di Caserta* come base principale — centrale, ben collegato e vicino al punto di ritrovo delle navette del giorno del matrimonio.
 
-    _Location e orari della cerimonia:_ da confermare in prossimità del matrimonio. \
     _Volete fermarvi a esplorare?_ Prenotate una notte o due sulla costa in anticipo — in alta stagione si riempie in fretta.
   transit_title: "Arrivo & Trasporti"
   transit_body: |-
@@ -135,10 +151,61 @@ info:
     #link("https://www.fiumicinoexpress.com/en/")[Roma Fiumicino (FCO)] — ~3 h con autobus espresso per Caserta Nord. \
     #link("https://www.fiumicinoexpress.com/en/")[Roma Ciampino (CIA)] — ~2 h con autobus espresso per Caserta Nord.
 
-    *Navette del giorno del matrimonio* \
-    Orari e punti di ritrovo verranno confermati più avanti.
+    *Come spostarsi* \
+    I treni collegano Caserta a Napoli in ~40 min; per la Costiera Amalfitana sono ideali un'auto a noleggio o i traghetti stagionali.
   warning_title: "Esplorare oltre Caserta"
   warning_body: |-
     Napoli è comodamente raggiungibile in treno, ma la *Costiera Amalfitana richiede organizzazione*: noleggiare un'auto è l'opzione più flessibile, anche se la strada costiera si affolla in alta stagione e nei weekend. In estate i traghetti sono un'alternativa panoramica. Pianificate il trasporto in anticipo e aggiungete una notte o due nei dintorni — trasformando il viaggio nella vacanza che merita di essere!
   recommendations: |-
     Solo qualche punto di partenza, nulla di definitivo — per gli alloggi, confrontate #link("https://www.booking.com")[Booking] o #link("https://www.airbnb.com")[Airbnb] intorno a Caserta e alla Costiera Amalfitana; per i traghetti, vedete #link("https://www.travelmar.it/en/")[Travelmar]. Fate comunque le vostre ricerche e scegliete ciò che si adatta meglio al vostro viaggio.
+
+wedding_day:
+  heading: "Il Giorno del Matrimonio"
+  intro: |-
+    Tutto avviene il *13 maggio 2028*. Ecco come si svolgerà la giornata, così saprete cosa aspettarvi — orari e indirizzi esatti verranno confermati più avanti.
+  timeline_title: "La Giornata, Ora per Ora"
+  timeline:
+    - ["16:00", "Cerimonia", "La cerimonia in chiesa — vi preghiamo di arrivare con 20 minuti di anticipo."]
+    - ["17:30", "Ricevimento", "Aperitivo e brindisi nella location del ricevimento."]
+    - ["18:30", "Cena", "Una lunga e gioiosa cena campana."]
+    - ["22:30", "Torta", "Taglio della torta e tavolo dei dolci."]
+    - ["23:30", "Festa", "Musica e balli fino a notte fonda."]
+  details_title: "Location & Navette"
+  venue_label: "Location"
+  venue_body: |-
+    _Chiesa:_ Basilica di Sant'Angelo In Formis | Via Luigi Baia, 120, 81043 Capua, CE. \
+    _Ricevimento:_ Villa Althea Bellona | SP 333, 81041 Palombara, CE.
+  shuttle_label: "Navette"
+  shuttle_body: |-
+    Organizzeremo *navette* dal centro di Caserta alle location e ritorno. Punti di ritrovo e orari verranno comunicati più avanti.
+  contact_label: "Aiuto durante la giornata"
+  contact_body: |-
+    Per qualsiasi cosa durante la giornata, contattate « nome » al « numero di telefono ».
+
+before_you_come:
+  heading: "Prima di Partire"
+  intro: |-
+    Alcune piccole cose ci aiutano a offrirvi la giornata migliore. Se potete condividerle in anticipo, al resto pensiamo noi.
+  checklist_title: "Fatecelo sapere"
+  checklist:
+    - "*Esigenze alimentari e allergie* — vegetariano, vegano, senza glutine o qualsiasi allergia, così la cucina potrà prendersi cura di voi."
+    - "*Accessibilità e supporto speciale* — accesso senza scale, sedute o qualsiasi cosa renda la giornata più semplice."
+    - "*Accompagnatori e bambini* — confermate chi viene e le eventuali necessità di seggioloni o menù per bambini."
+    - "*Date del viaggio* — indicativamente quando arrivate e ripartite, nel caso possiamo aiutarvi a organizzarvi."
+  rsvp_title: "Conferma di Partecipazione"
+  rsvp_body: |-
+    Vi preghiamo di rispondere entro il *1 aprile 2028*. Confermate e condividete i dettagli qui sopra a « link o email », oppure contattateci direttamente — siamo sempre felici di aiutare.
+
+quotes:
+  - text: "Il mondo è un libro e chi non viaggia ne legge una sola pagina."
+    author: "Sant'Agostino"
+  - text: "Viaggiare è vivere."
+    author: "Hans Christian Andersen"
+  - text: "L'amore è composto da un'unica anima che abita due corpi."
+    author: "Aristotele"
+  - text: "Un viaggio si misura meglio in amici che in miglia."
+    author: "Tim Cahill"
+  - text: "L'Italia, la primavera e il primo amore insieme dovrebbero bastare a rendere felice anche la persona più cupa."
+    author: "Bertrand Russell"
+  - text: "Ovunque tu vada, in qualche modo diventa parte di te."
+    author: "Anita Desai"
