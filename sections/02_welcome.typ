@@ -1,31 +1,24 @@
-#import "../components/styles.typ": title-font, primary-color, quote-box
-#import "../lang.typ": strings, m
+#import "../components/styles.typ": *
+#import "../lang.typ": strings, markup, lead-paragraph
+#let copy = strings.welcome
 
-#show heading: it => [
-  #text(font: title-font, fill: primary-color, weight: "bold")[#it.body]
-  #v(0.3em)
-]
+#let letter = {
+  set par(justify: false, leading: 0.62em)
+  label(strings.labels.welcome_kicker, fill: gold)
+  v(1em)
+  text(font: display-font, size: 27pt, fill: forest)[#copy.heading]
+  v(0.4em)
+  label(strings.labels.welcome_sub, fill: mute, size: 7pt)
+  v(1.1em)
+  lead-paragraph(copy.intro)
+  v(1.1em)
+  text(font: display-font, style: "italic", size: 14pt, fill: forest)[#markup(copy.quote)]
+  v(1.1em)
+  text(font: text-font, size: 8.5pt, style: "italic", fill: mute)[#markup(strings.ph.story_todo)]
+}
 
-= #strings.welcome.heading
-
-#v(0.3em)
-
-#m(strings.welcome.intro)
-
-#v(0.8em)
-
-#quote-box([#m(strings.welcome.quote)])
-
-#v(1fr)
-
-#align(center)[
-  #block(radius: 6pt, clip: true, stroke: 0.5pt + rgb("#e2e8f0"))[
-    #image("../assets/02-welcome/Angelo-Teo-Sion.jpeg", height: 15.5cm)
-  ]
-
-  #v(0.9em)
-
-  #text(size: 10.5pt, style: "italic", fill: primary-color)[#m(strings.welcome.turn_page)]
-]
-
-#v(1fr)
+#split-page(
+  placeholder-fill(strings.ph.the_couple),
+  letter,
+  media-fr: 2, text-fr: 3, side: "top", valign: top, pad: 1.8cm,
+)

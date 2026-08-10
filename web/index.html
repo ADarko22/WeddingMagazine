@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angelo &amp; Teodora — Wedding Magazine</title>
+<meta name="description" content="Our little guide to Campania — read it in English, Italian or Romanian.">
+<style>
+  :root{
+    --ivory:#F4F1E8; --forest:#1C3B2E; --ink:#141414; --gold:#B08D4C; --mute:#6B6659;
+    --serif:"Didot","Bodoni MT","Playfair Display",Georgia,"Times New Roman",serif;
+    --sans:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:var(--ivory); color:var(--ink); font-family:var(--sans);
+    display:flex; align-items:center; justify-content:center; padding:2rem;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{width:100%; max-width:640px; text-align:center}
+  .kicker{
+    font-size:.72rem; letter-spacing:.28em; text-transform:uppercase;
+    color:var(--gold); font-weight:600; margin-bottom:1.6rem;
+  }
+  h1{
+    font-family:var(--serif); font-weight:400; color:var(--forest);
+    font-size:clamp(2.6rem,9vw,4.2rem); line-height:1.04; margin:0;
+  }
+  .amp{font-style:italic}
+  .date{
+    margin:1.1rem 0 0; font-size:.8rem; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--mute);
+  }
+  .rule{width:1.6cm; height:1px; background:var(--gold); border:0; margin:1.8rem auto}
+  .lead{font-family:var(--serif); font-style:italic; color:var(--forest);
+    font-size:1.15rem; line-height:1.5; margin:0 auto 2.2rem; max-width:34rem}
+  .choose{font-size:.7rem; letter-spacing:.24em; text-transform:uppercase; color:var(--mute); margin-bottom:1rem}
+  .langs{display:flex; flex-wrap:wrap; gap:.9rem; justify-content:center}
+  a.lang{
+    flex:1 1 8rem; min-width:8rem; text-decoration:none;
+    border:1px solid var(--gold); color:var(--forest); background:transparent;
+    padding:1rem 1.2rem; border-radius:2px; transition:background .18s ease,color .18s ease;
+  }
+  a.lang .name{font-family:var(--serif); font-size:1.35rem; display:block}
+  a.lang .sub{font-size:.62rem; letter-spacing:.2em; text-transform:uppercase; color:var(--mute); margin-top:.35rem}
+  a.lang:hover,a.lang:focus-visible{background:var(--forest); color:var(--ivory)}
+  a.lang:hover .sub,a.lang:focus-visible .sub{color:var(--gold)}
+  footer{margin-top:2.4rem; font-size:.66rem; letter-spacing:.12em; color:var(--mute)}
+  a.star{
+    margin-top:1.1rem; display:inline-flex; align-items:center; gap:.5rem;
+    text-decoration:none; color:var(--mute); background:transparent;
+    border:1px solid var(--gold); border-radius:2px; padding:.5rem .9rem;
+    font-size:.62rem; letter-spacing:.2em; text-transform:uppercase;
+    transition:background .18s ease,color .18s ease;
+  }
+  a.star svg{fill:var(--gold); flex:none; transition:fill .18s ease}
+  a.star:hover,a.star:focus-visible{background:var(--forest); color:var(--ivory)}
+  a.star:hover svg,a.star:focus-visible svg{fill:var(--ivory)}
+  @media (prefers-color-scheme: dark){
+    body{background:#12140f; color:var(--ivory)}
+    h1,.lead,a.lang{color:var(--ivory)}
+    a.lang{border-color:var(--gold)}
+    a.lang:hover,a.lang:focus-visible{background:var(--gold); color:#12140f}
+    a.star:hover,a.star:focus-visible{background:var(--gold); color:#12140f}
+    a.star:hover svg,a.star:focus-visible svg{fill:#12140f}
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <p class="kicker">Welcome to our wedding</p>
+    <h1>Angelo <span class="amp">&amp;</span> Teodora</h1>
+    <p class="date">Campania · Italy — May 13<sup>th</sup>, 2028</p>
+    <hr class="rule">
+    <p class="lead">We made this little guide so you can turn our wedding into an unforgettable vacation. Choose your language and start exploring.</p>
+    <p class="choose">Read the magazine</p>
+    <nav class="langs">
+      <a class="lang" href="wedding-en.pdf"><span class="name">English</span><span class="sub">PDF</span></a>
+      <a class="lang" href="wedding-it.pdf"><span class="name">Italiano</span><span class="sub">PDF</span></a>
+      <a class="lang" href="wedding-ro.pdf"><span class="name">Română</span><span class="sub">PDF</span></a>
+    </nav>
+    <footer>With love, Angelo &amp; Teodora</footer>
+    <div>
+      <a class="star" href="https://github.com/ADarko22/WeddingMagazine"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Star this project on GitHub">
+        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+        Star on GitHub
+      </a>
+    </div>
+  </main>
+</body>
+</html>

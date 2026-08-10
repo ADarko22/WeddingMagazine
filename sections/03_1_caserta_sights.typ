@@ -1,62 +1,49 @@
-#import "../components/styles.typ": sight-card, photo, quote-box
-#import "../lang.typ": strings, m
-#let s = strings.caserta
+#import "../components/styles.typ": *
+#import "../lang.typ": strings, markup, lead-paragraph
+#let copy = strings.caserta
 
-= #s.heading
-
-#m(s.intro)
-
-#grid(
-  columns: (1fr, 1fr),
-  column-gutter: 1.5cm,
-  [
-    == #strings.ui.highlights
-
-    #sight-card(
-      s.reggia.title,
-      m(s.reggia.body),
-      url: "https://reggiadicaserta.cultura.gov.it",
-      img: photo("../assets/03-1-caserta/reggia-caserta.png", h: 7.2cm)
-    )
-
-    #sight-card(
-      s.casertavecchia.title,
-      m(s.casertavecchia.body),
-      url: "https://www.borgando.it/campania/casertavecchia/",
-      img: photo("../assets/03-1-caserta/casertavecchia-vicoli.png", h: 3.6cm),
-    )
-
-    #sight-card(
-      s.anfiteatro.title,
-      m(s.anfiteatro.body),
-      url: "https://cultura.gov.it/luogo/anfiteatro-campano",
-      img: photo("../assets/03-1-caserta/anfiteatro-campano.png", h: 3.6cm),
-    )
-  ],
-  [
-    == #strings.ui.food
-
-    #sight-card(
-      s.masanielli.title,
-      m(s.masanielli.body),
-      url: "https://www.pizzeriaimasanielli.it",
-      img: photo("../assets/03-1-caserta/masanielli-pizza.png", h: 3.6cm),
-    )
-
-    #sight-card(
-      s.pepe.title,
-      m(s.pepe.body),
-      url: "https://www.pepeingrani.it/en",
-      img: photo("../assets/03-1-caserta/pepe-in-grani-pizza.png", h: 3.6cm),
-    )
-
-    #sight-card(
-      s.lecolonne.title,
-      m(s.lecolonne.body),
-      url: "https://www.lecolonnemarziale.it",
-      img: photo("../assets/03-1-caserta/le-colonne-pizza-al-contrario.png", h: 3.6cm),
-    )
-
-    #quote-box([#m(s.explore)])
-  ],
+// ---- Opener: full-bleed Reggia with text overlaid -------------------------
+#hero-overlay(
+  "../assets/03-1-caserta/reggia-caserta.png",
+  kicker: strings.labels.caserta_kicker,
+  title: copy.reggia.title,
+  body: markup(copy.reggia.body),
 )
+
+// ---- Local Highlights ------------------------------------------------------
+#v(0.3cm)
+= #copy.heading
+
+#v(1.2em)
+#pad(right: 10%)[#lead-paragraph(copy.intro)]
+
+#v(1.2em)
+#label(strings.ui.highlights, fill: gold)
+#v(0.9em)
+
+#feature(img-fill("../assets/03-1-caserta/casertavecchia-vicoli.png"),
+  title: copy.casertavecchia.title, body: markup(copy.casertavecchia.body),
+  url: "https://www.borgando.it/campania/casertavecchia/", side: left, h: 5.4cm)
+
+#feature(img-fill("../assets/03-1-caserta/anfiteatro-campano.png"),
+  title: copy.anfiteatro.title, body: markup(copy.anfiteatro.body),
+  url: "https://cultura.gov.it/luogo/anfiteatro-campano", side: right, h: 5.4cm)
+
+#pagebreak()
+
+// ---- Gastronomic Tips ------------------------------------------------------
+#v(0.3cm)
+#label(strings.ui.food, fill: gold)
+#v(0.9em)
+
+#feature(img-fill("../assets/03-1-caserta/masanielli-pizza.png"),
+  title: copy.masanielli.title, body: markup(copy.masanielli.body),
+  url: "https://www.pizzeriaimasanielli.it", side: left, h: 4.8cm)
+
+#feature(img-fill("../assets/03-1-caserta/pepe-in-grani-pizza.png"),
+  title: copy.pepe.title, body: markup(copy.pepe.body),
+  url: "https://www.pepeingrani.it/en", side: right, h: 4.8cm)
+
+#feature(img-fill("../assets/03-1-caserta/le-colonne-pizza-al-contrario.png"),
+  title: copy.lecolonne.title, body: markup(copy.lecolonne.body),
+  url: "https://www.lecolonnemarziale.it", side: left, h: 4.8cm)

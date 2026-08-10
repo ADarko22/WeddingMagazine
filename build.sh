@@ -6,6 +6,10 @@
 # Needs the Typst CLI. Install it once with:  brew install typst
 # (the VS Code Tinymist extension does NOT provide a command-line binary.)
 # If typst lives somewhere off your PATH, point at it:  TYPST=/path/to/typst ./build.sh
+#
+# Pinned/tested Typst version: 0.15.1 (CI installs exactly this — see
+# .github/workflows/build.yml). Newer Typst may change layout; upgrade deliberately.
+# Fonts: Didot + Avenir Next (ship with macOS). On other OSes install/substitute them.
 set -euo pipefail
 
 cd "$(dirname "$0")"
@@ -34,7 +38,7 @@ mkdir -p out
 
 langs=("$@")
 if [ ${#langs[@]} -eq 0 ]; then
-  langs=(en it)   # add new language codes here (must match lang/<code>.yaml)
+  langs=(en it ro)   # add new language codes here (must match lang/<code>.yaml)
 fi
 
 for l in "${langs[@]}"; do

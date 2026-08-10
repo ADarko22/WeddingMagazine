@@ -1,79 +1,48 @@
-#import "../components/styles.typ": sight-card, photo, photo-hero, quote-box
-#import "../lang.typ": strings, m
-#let s = strings.amalfi
+#import "../components/styles.typ": *
+#import "../lang.typ": strings, markup
+#let copy = strings.amalfi
 
-= #s.heading
+// ---- Opener: Amalfi view spanning the top half of two pages ---------------
+#spread-band-left("../assets/03-3-amalfi-coast/amalfi-view.png", {}, ratio: 1)
 
-#m(s.intro)
+#spread-band-right("../assets/03-3-amalfi-coast/amalfi-view.png", {
+  label(strings.labels.amalfi_kicker, fill: gold)
+  v(0.8em)
+  text(font: display-font, size: 30pt, fill: ivory)[#copy.hero_title]
+  v(0.8em)
+  set par(justify: false, leading: 0.62em)
+  text(fill: ivory)[#markup(copy.intro)]
+}, ratio: 1, body-at: "top")
 
-#photo-hero(
-  "../assets/03-3-amalfi-coast/amalfi-view.png",
-  title: s.hero_title,
-  h: 6.5cm,
-)
+// ---- Highlights + Gastronomic ---------------------------------
+#label(strings.ui.highlights, fill: gold)
+#v(0.8em)
+#feature(img-fill("../assets/03-3-amalfi-coast/positano-beach.png"),
+  title: copy.positano.title, body: markup(copy.positano.body),
+  url: "https://www.positano.com/en/e/positano", side: left, frac: 0.5, h: 5.2cm)
+#v(0.3cm)
+#feature(img-fill("../assets/03-3-amalfi-coast/sorrento.png"),
+  title: copy.sorrento.title, body: markup(copy.sorrento.body),
+  url: "https://www.amalfitouristoffice.it", side: right, h: 5cm)
 
-== #strings.ui.highlights
-
-#grid(
-  columns: (1.1fr, 0.9fr),
-  column-gutter: 1.2cm,
-  [
-    #sight-card(
-      s.positano.title,
-      m(s.positano.body),
-      url: "https://www.positano.com/en/e/positano",
-      img: photo("../assets/03-3-amalfi-coast/positano-beach.png", h: 9.6cm),
-    )
-  ],
-  [
-    #sight-card(
-      s.sorrento.title,
-      m(s.sorrento.body),
-      url: "https://www.amalfitouristoffice.it",
-      img: photo("../assets/03-3-amalfi-coast/sorrento.png", h: 4.7cm),
-    )
-
-    #sight-card(
-      s.vietri.title,
-      m(s.vietri.body),
-      url: "https://www.vietrisulmare.it",
-      img: photo("../assets/03-3-amalfi-coast/vietri-sul-mare.png", h: 4.7cm),
-    )
-  ],
-)
+#feature(img-fill("../assets/03-3-amalfi-coast/vietri-sul-mare.png"),
+  title: copy.vietri.title, body: markup(copy.vietri.body),
+  url: "https://www.vietrisulmare.it", side: left, h: 5cm)
 
 #pagebreak()
 
-== #strings.ui.food
+#v(0.3cm)
+#label(strings.ui.food, fill: gold)
+#v(0.9em)
 
-#grid(
-  columns: (1.1fr, 0.9fr),
-  column-gutter: 1.2cm,
-  [
-    #sight-card(
-      s.posides.title,
-      m(s.posides.body),
-      url: "https://posides.res-discover.com",
-      img: photo("../assets/03-3-amalfi-coast/posides-pepata-cozze.png", h: 12.5cm),
-    )
-  ],
-  [
-    #sight-card(
-      s.granita.title,
-      m(s.granita.body),
-      url: "https://www.amalficoast.com",
-      img: photo("../assets/03-3-amalfi-coast/amalfi-granita-limoncello.png", h: 6.2cm),
-    )
+#feature(img-fill("../assets/03-3-amalfi-coast/posides-pepata-cozze.png"),
+  title: copy.posides.title, body: markup(copy.posides.body),
+  url: "https://posides.res-discover.com", side: left, frac: 0.5, h: 5.6cm)
 
-    #sight-card(
-      s.salderiso.title,
-      m(s.salderiso.body),
-      url: "https://www.pasticceriasalderiso.it/en/",
-      img: photo("../assets/03-3-amalfi-coast/sal-de-riso-pastries.png", h: 6.2cm),
-    )
-  ],
-)
+#feature(img-fill("../assets/03-3-amalfi-coast/amalfi-granita-limoncello.png"),
+  title: copy.granita.title, body: markup(copy.granita.body),
+  url: "https://www.amalficoast.com", side: right, h: 4.8cm)
 
-#v(0.8em)
-
-#quote-box([#m(s.explore)])
+#feature(img-fill("../assets/03-3-amalfi-coast/sal-de-riso-pastries.png"),
+  title: copy.salderiso.title, body: markup(copy.salderiso.body),
+  url: "https://www.pasticceriasalderiso.it/en/", side: left, h: 4.8cm)

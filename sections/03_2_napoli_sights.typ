@@ -1,60 +1,41 @@
-#import "../components/styles.typ": sight-card, photo, quote-box
-#import "../lang.typ": strings, m
-#let s = strings.napoli
+#import "../components/styles.typ": *
+#import "../lang.typ": strings, markup
+#let copy = strings.napoli
 
-= #s.heading
+// ---- Opener: Posillipo spanning the top half of pages 8–9 -----------------
+#spread-band-left("../assets/03-2-napoli/napoli-posillipo.png", {
+  label(strings.labels.napoli_kicker, fill: gold)
+  v(0.8em)
+  text(font: display-font, size: 32pt, fill: forest)[Napoli]
+  v(0.8em)
+  set par(justify: false, leading: 0.62em)
+  text(fill: ink)[#markup(copy.intro)]
+}, ratio: 0.63)
 
-#m(s.intro)
+#spread-band-right("../assets/03-2-napoli/napoli-posillipo.png", {
+  label(strings.ui.highlights, fill: gold)
+  v(0.8em)
+  feature(img-fill("../assets/03-2-napoli/napoli-centro.png"),
+    title: copy.centro.title, body: markup(copy.centro.body),
+    url: "https://visit-napoli.com/cosa-vedere-napoli", side: left, h: 3.7cm)
+  feature(img-fill("../assets/03-2-napoli/napoli-metro-toledo.png"),
+    title: copy.toledo.title, body: markup(copy.toledo.body),
+    url: "https://metroart.anm.it/stazioni-arte/2018-02-12-14-33-22/toledo.html", side: right, h: 3.7cm)
+}, ratio: 0.63)
 
-#photo("../assets/03-2-napoli/napoli-posillipo.png", h: 6cm)
-#align(center)[#text(size: 8.5pt, style: "italic", fill: rgb("#64748b"))[#m(s.caption)]]
+// ---- Gastronomic Tips ------------------------------------------------------
+#v(0.3cm)
+#label(strings.ui.food, fill: gold)
+#v(0.9em)
 
-#v(0.4em)
+#feature(img-fill("../assets/03-2-napoli/napoli-poppella-fiocco.png"),
+  title: copy.poppella.title, body: markup(copy.poppella.body),
+  url: "https://www.pasticceriapoppella.com", side: left, h: 4.8cm)
 
-#grid(
-  columns: (1fr, 1fr),
-  column-gutter: 1.5cm,
-  [
-    == #strings.ui.highlights
+#feature(img-fill("../assets/03-2-napoli/napoli-passione-sofi.png"),
+  title: copy.passione.title, body: markup(copy.passione.body),
+  url: "https://www.passionedisofi.it", side: right, h: 4.8cm)
 
-    #sight-card(
-      s.centro.title,
-      m(s.centro.body),
-      url: "https://visit-napoli.com/cosa-vedere-napoli",
-      img: photo("../assets/03-2-napoli/napoli-centro.png"),
-    )
-
-    #sight-card(
-      s.toledo.title,
-      m(s.toledo.body),
-      url: "https://metroart.anm.it/stazioni-arte/2018-02-12-14-33-22/toledo.html",
-      img: photo("../assets/03-2-napoli/napoli-metro-toledo.png"),
-    )
-
-    #quote-box([#m(s.explore)])
-  ],
-  [
-    == #strings.ui.food
-
-    #sight-card(
-      s.poppella.title,
-      m(s.poppella.body),
-      url: "https://www.pasticceriapoppella.com",
-      img: photo("../assets/03-2-napoli/napoli-poppella-fiocco.png"),
-    )
-
-    #sight-card(
-      s.passione.title,
-      m(s.passione.body),
-      url: "https://www.passionedisofi.it",
-      img: photo("../assets/03-2-napoli/napoli-passione-sofi.png"),
-    )
-
-    #sight-card(
-      s.sfogliatella.title,
-      m(s.sfogliatella.body),
-      url: "https://www.sfogliatelleattanasio.it",
-      img: photo("../assets/03-2-napoli/napoli-sfogliatella-attanasio.png"),
-    )
-  ],
-)
+#feature(img-fill("../assets/03-2-napoli/napoli-sfogliatella-attanasio.png"),
+  title: copy.sfogliatella.title, body: markup(copy.sfogliatella.body),
+  url: "https://www.sfogliatelleattanasio.it", side: left, h: 4.8cm)

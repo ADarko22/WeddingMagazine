@@ -1,0 +1,72 @@
+name: Build & Publish Wedding Magazine
+
+# Builds every language edition and publishes them to GitHub Pages so guests can
+# read/download them from a single link (a language chooser + the three PDFs).
+#
+# Runs on macOS because the design uses Didot + Avenir Next, which ship with macOS —
+# this renders with the intended fonts without bundling/licensing anything.
+# Prerequisite: Settings → Pages → Source: "GitHub Actions" (and a public repo/Pages
+# for guests to reach it). Typst is pinned to match local builds.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two Pages deploys at once; let the newest push win.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  TYPST_VERSION: "0.15.1"
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install Typst ${{ env.TYPST_VERSION }}
+        run: |
+          set -euo pipefail
+          curl -fsSL -o typst.tar.xz \
+            "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-aarch64-apple-darwin.tar.xz"
+          tar -xJf typst.tar.xz
+          echo "$GITHUB_WORKSPACE/typst-aarch64-apple-darwin" >> "$GITHUB_PATH"
+
+      - name: Verify Typst & fonts
+        run: |
+          typst --version
+          typst fonts | grep -i "Didot"       || echo "::warning::Didot not found on runner — headings may substitute"
+          typst fonts | grep -i "Avenir Next"  || echo "::warning::Avenir Next not found on runner — body may substitute"
+
+      - name: Build all languages
+        run: ./build.sh
+
+      - name: Assemble Pages site
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          cp web/index.html _site/
+          cp out/wedding-*.pdf _site/
+          ls -lh _site
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
