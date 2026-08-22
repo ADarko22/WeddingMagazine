@@ -30,7 +30,7 @@
 
 #feature(img-fill("../assets/03-2-napoli/napoli-poppella-fiocco.png"),
   title: copy.poppella.title, body: markup(copy.poppella.body),
-  url: "https://www.pasticceriapoppella.com", side: left, h: 4.8cm)
+  url: "https://www.pasticceriapoppella.com", side: left, h: 5.2cm)
 
 #feature(img-fill("../assets/03-2-napoli/napoli-passione-sofi.png"),
   title: copy.passione.title, body: markup(copy.passione.body),
@@ -39,3 +39,7 @@
 #feature(img-fill("../assets/03-2-napoli/napoli-sfogliatella-attanasio.png"),
   title: copy.sfogliatella.title, body: markup(copy.sfogliatella.body),
   url: "https://www.sfogliatelleattanasio.it", side: left, h: 4.8cm)
+
+#feature(img-fill("../assets/03-2-napoli/da-michele.png"),
+  title: copy.damichele.title, body: markup(copy.damichele.body),
+  url: "https://www.damichele.net/sede-di-napoli", side: right, h: 5.2cm)

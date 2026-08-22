@@ -47,6 +47,8 @@ caserta:
   heading: "Cosa Vedere e Dove Mangiare a Caserta"
   intro: |-
     Caserta è una gemma nascosta della Campania — un ricco intreccio di storia, cultura e gastronomia. Le tracce dell'Impero Romano, come l'_Acquedotto Carolino_ e l'anfiteatro, contrastano con la grandezza della _Reggia di Caserta_, che rivaleggia con _Versailles_ e si dice abbia giardini ancora più belli. E per gli amanti del cibo questo è il paradiso: qui la pizza è elevata ad arte e la _Mozzarella di Bufala_ non è solo un formaggio, ma un'esperienza culinaria.
+  explore: |-
+    Concediti mezza giornata per passeggiare nella Reggia di Caserta — dal magnifico palazzo ai giardini infiniti, le grandi fontane e le cascate. Goditela con calma. 
   reggia:
     title: "Reggia di Caserta"
     body: |-
@@ -59,6 +61,10 @@ caserta:
     title: "Anfiteatro Campano"
     body: |-
       Un maestoso anfiteatro romano a Santa Maria Capua Vetere, secondo per grandezza solo al Colosseo di Roma.
+  acquedotto:
+    title: "Acquedotto Carolino"
+    body: |-
+      Un magnifico acquedotto del XVIII secolo, costruito da Luigi Vanvitelli, per portare l'acqua dal Monte Taburno ai giardini della Reggia.
   masanielli:
     title: "I Masanielli — Francesco Martucci"
     body: |-
@@ -71,15 +77,17 @@ caserta:
     title: "Le Colonne"
     body: |-
       Un ristorante stellato Michelin che eleva la _Mozzarella di Bufala_ locale a vera arte culinaria.
-  explore: |-
-    Non c'è limite alle sorprese qui — passeggiate nelle grandi sale della Reggia, tornate indietro nel tempo all'Anfiteatro Campano, perdetevi nei vicoli medievali di Casertavecchia e assaporate la migliore pizza del mondo.
+  chirico:
+    title: "Pasticceria Fratelli Chirico"
+    body: |-
+      Assaggia l'autentico sapore dei dolci tradizionali a pochi minuti dalla Reggia.
 
 napoli:
   heading: "Cosa Vedere e Dove Mangiare a Napoli"
   intro: |-
     _Johann Wolfgang von Goethe_ scrisse: «Vedi Napoli e poi muori.» È una città che ti lascia senza fiato: cultura vibrante, storia stratificata e un ritmo tutto suo. Prendete il treno da Caserta, perdetevi nel centro storico, fate una passeggiata sul lungomare e molto altro.
   explore: |-
-    Non c'è limite alle sorprese qui — passeggiate per _Spaccanapoli_, incontrate gli artigiani di _San Gregorio Armeno_, ammirate il _Cristo Velato_ nella Cappella Sansevero, esplorate l'_Isola Maledetta della Gaiola_ e molto altro.
+    Non c'è limite alle sorprese a Napoli — passeggiate per _Spaccanapoli_, incontrate gli artigiani di _San Gregorio Armeno_, ammirate il _Cristo Velato_ nella Cappella Sansevero, esplorate l'_Isola Maledetta della Gaiola_ e molto altro.
   centro:
     title: "Centro Storico"
     body: |-
@@ -100,6 +108,10 @@ napoli:
     title: "Sfogliatella — Attanasio"
     body: |-
       A due passi dalla stazione, la _sfogliatella riccia_ a forma di conchiglia esce calda e croccante per tutta la mattina.
+  damichele:
+    title: "Pizzeria Da Michele"
+    body: |-
+      La pizzeria più famosa del mondo, e un must per gli amanti della pizza. _Solo per coloro che sono disposti ad aspettare in coda._
 
 amalfi:
   heading: "Cosa Vedere e Dove Mangiare in Costiera Amalfitana"
@@ -120,8 +132,12 @@ amalfi:
     title: "Vietri sul Mare"
     body: |-
       L'ingresso orientale della costa, famoso per le sue ceramiche dipinte a mano — il souvenir perfetto e colorato da portare a casa.
+  cetara:
+    title: "Cetara"
+    body: |-
+      Il villaggio di pescatori più autentico della regione, famoso per le sue alici. Non perdetevi la _colatura di alici_, una salsa locale a base di alici che è un must per gli amanti del cibo.
   posides:
-    title: "Pesce & Pasta — la nostra scelta"
+    title: "Pesce & Pasta — Posides a Positano"
     body: |-
       Un locale non tradizionale a cui teniamo molto: per un pasto leggero, giocoso e delizioso, provate _Posides_ a Positano! Altrimenti, seguite l'istinto — scegliete un ristorante con vista sul mare e ordinate la pasta con _colatura di alici_ o gli _scialatielli ai frutti di mare_, e lasciate che la serata scorra con calma.
   granita:
@@ -132,6 +148,10 @@ amalfi:
     title: "Sal De Riso — Minori"
     body: |-
       La pasticceria più celebre della costa, culla della _delizia al limone_ e delle sue torte ricotta e pere. Per gli amanti del pistacchio, la _torta panarea_ è d'obbligo.
+  pasta:
+    title: "Ancora più Pasta & Frutti di Mare — That's Amore"
+    body: |-
+      Scopri tutti i piatti tradizionali: Scialatielli all'amalfitana, Spaghetti alla Nerano, Spaghetti con Colatura di Alici, Spaghetti al limone, Cuoppo Fritto, Alici di Cetara, Pezzogna all'acquapazza, Totani alla Praianese.
 
 info:
   heading: "Come Muoversi e Dove Alloggiare"

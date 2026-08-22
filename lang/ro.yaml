@@ -47,6 +47,8 @@ caserta:
   heading: "Ce să Vedeți și Unde să Mâncați în Caserta"
   intro: |-
     Caserta este o comoară ascunsă a Campaniei — un amestec bogat de istorie, cultură și gastronomie. Urmele Imperiului Roman, precum _Acquedotto Carolino_ și amfiteatrul, contrastează cu măreția _Reggiei di Caserta_, care rivalizează cu _Versailles_ și se spune că are grădini mult mai frumoase. Iar pentru iubitorii de mâncare este un paradis: aici pizza este ridicată la rang de artă, iar _Mozzarella di Bufala_ nu este doar o brânză, ci o experiență culinară.
+  explore: |-
+    Acordă-ți o jumătate de zi pentru a te plimba prin Reggia di Caserta — de la magnificul palat la grădinile nesfârșite, fântânile grandioase și cascadele sale. Bucură-te de ea în tihnă.
   reggia:
     title: "Reggia di Caserta"
     body: |-
@@ -59,6 +61,10 @@ caserta:
     title: "Anfiteatro Campano"
     body: |-
       Un maiestuos amfiteatru roman din Santa Maria Capua Vetere, al doilea ca mărime după Colosseumul din Roma.
+  acquedotto:
+    title: "Acquedotto Carolino"
+    body: |-
+      Un magnific acvaduct din secolul al XVIII-lea, construit de Luigi Vanvitelli, pentru a aduce apă de pe Muntele Taburno în grădinile Reggiei.
   masanielli:
     title: "I Masanielli — Francesco Martucci"
     body: |-
@@ -71,15 +77,17 @@ caserta:
     title: "Le Colonne"
     body: |-
       Un restaurant cu stea Michelin care ridică _Mozzarella di Bufala_ locală la rang de artă culinară.
-  explore: |-
-    Nu există limită a surprizelor aici — plimbați-vă prin sălile grandioase ale Reggiei, întoarceți-vă în timp la Anfiteatro Campano, pierdeți-vă pe străzile medievale din Casertavecchia și savurați cea mai bună pizza din lume.
+  chirico:
+    title: "Pasticceria Fratelli Chirico"
+    body: |-
+      Gustă aroma autentică a dulciurilor tradiționale la doar câteva minute de Reggia.
 
 napoli:
   heading: "Ce să Vedeți și Unde să Mâncați în Napoli"
   intro: |-
     _Johann Wolfgang von Goethe_ scria: „Vezi Napoli și apoi mori.” Este un oraș care îți taie răsuflarea: cultură vibrantă, istorie în straturi și un ritm numai al lui. Luați trenul din Caserta, pierdeți-vă în centrul istoric, faceți o plimbare pe malul mării și multe altele.
   explore: |-
-    Nu există limită a surprizelor aici — plimbați-vă pe _Spaccanapoli_, întâlniți meșteșugarii din _San Gregorio Armeno_, admirați _Cristo Velato_ în Capela Sansevero, explorați _Insula Blestemată Gaiola_ și multe altele.
+    Nu există limite pentru surprize în Napoli — plimbați-vă pe Spaccanapoli, întâlniți meșteșugarii de pe San Gregorio Armeno, admirați Cristo Velato (Hristos cel învăluit) în Capela Sansevero, explorați Insula Blestemată Gaiola și multe altele.
   centro:
     title: "Centro Storico"
     body: |-
@@ -100,6 +108,10 @@ napoli:
     title: "Sfogliatella — Attanasio"
     body: |-
       La câțiva pași de gară, _sfogliatella riccia_ în formă de scoică iese caldă și crocantă toată dimineața.
+  damichele:
+    title: "Pizzeria Da Michele"
+    body: |-
+      Cea mai faimoasă pizzerie din lume și un loc de neratat pentru iubitorii de pizza. _Doar pentru cei dispuși să aștepte la coadă._
 
 amalfi:
   heading: "Ce să Vedeți și Unde să Mâncați pe Coasta Amalfitană"
@@ -120,8 +132,12 @@ amalfi:
     title: "Vietri sul Mare"
     body: |-
       Pragul estic al coastei, faimos pentru ceramica pictată manual — suvenirul perfect și colorat de dus acasă.
+  cetara:
+    title: "Cetara"
+    body: |-
+      Cel mai autentic sat de pescari din regiune, renumit pentru anșoa. Nu ratați _colatura di alici_, un sos local pe bază de anșoa, care merită neapărat încercat de iubitorii de gastronomie.
   posides:
-    title: "Fructe de Mare & Paste — alegerea noastră"
+    title: "Fructe de Mare & Paste — Posides în Positano"
     body: |-
       Un local netradițional la care ținem mult: pentru o masă ușoară, jucăușă și delicioasă, încercați _Posides_ în Positano! Altfel, urmați-vă instinctul — alegeți orice restaurant cu vedere la mare și comandați pastele cu _colatura di alici_ sau _scialatielli ai frutti di mare_ și lăsați seara să curgă în voie.
   granita:
@@ -132,6 +148,10 @@ amalfi:
     title: "Sal De Riso — Minori"
     body: |-
       Cea mai celebră cofetărie a coastei, locul de naștere al _delizia al limone_ și al torturilor sale cu ricotta și pere. Pentru iubitorii de fistic: _tortul panarea_ este obligatoriu.
+  pasta:
+    title: "Mai multă paste și fructe de mare — That's Amore"
+    body: |-
+      Descoperiți toate preparatele tradiționale locale: Scialatielli all'Amalfitana, Spaghetti alla Nerano, Spaghetti cu Colatura di Alici, Spaghetti al limone, Cuoppo Fritto, anșoa de Cetara, Pezzogna all'Acqua Pazza și Totani alla Praianese.
 
 info:
   heading: "Cum să vă Deplasați și Unde să Stați"

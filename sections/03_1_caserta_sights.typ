@@ -23,11 +23,15 @@
 
 #feature(img-fill("../assets/03-1-caserta/casertavecchia-vicoli.png"),
   title: copy.casertavecchia.title, body: markup(copy.casertavecchia.body),
-  url: "https://www.borgando.it/campania/casertavecchia/", side: left, h: 5.4cm)
+  url: "https://www.borgando.it/campania/casertavecchia", side: left, h: 5.4cm)
 
 #feature(img-fill("../assets/03-1-caserta/anfiteatro-campano.png"),
   title: copy.anfiteatro.title, body: markup(copy.anfiteatro.body),
   url: "https://cultura.gov.it/luogo/anfiteatro-campano", side: right, h: 5.4cm)
+
+#feature(img-fill("../assets/03-1-caserta/acquedotto-carolino.png"),
+  title: copy.acquedotto.title, body: markup(copy.acquedotto.body),
+  url: "https://www.visitcampania.info/en/attrazioni/carolino-aqueduct", side: left, h: 5.4cm)
 
 #pagebreak()
 
@@ -47,3 +51,7 @@
 #feature(img-fill("../assets/03-1-caserta/le-colonne-pizza-al-contrario.png"),
   title: copy.lecolonne.title, body: markup(copy.lecolonne.body),
   url: "https://www.lecolonnemarziale.it", side: left, h: 4.8cm)
+
+#feature(img-fill("../assets/03-1-caserta/chirico-pasticceri.png"),
+  title: copy.chirico.title, body: markup(copy.chirico.body),
+  url: "https://www.pasticceriafratellichirico.it", side: right, h: 4.8cm)

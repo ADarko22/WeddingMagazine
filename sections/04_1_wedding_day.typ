@@ -26,7 +26,9 @@
     #timeline(copy.timeline)
   ],
   [
-    #placeholder(strings.ph.venue_photo, h: 8.6cm)
+    #box(width: 100%, height: 10.6cm, clip: true, stroke: 0.6pt + gold)[
+      #image("../assets/04-info/villa-althea5.png", width: 100%, height: 100%)
+    ]
   ],
 )
 

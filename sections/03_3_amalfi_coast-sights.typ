@@ -20,7 +20,7 @@
 #feature(img-fill("../assets/03-3-amalfi-coast/positano-beach.png"),
   title: copy.positano.title, body: markup(copy.positano.body),
   url: "https://www.positano.com/en/e/positano", side: left, frac: 0.5, h: 5.2cm)
-#v(0.3cm)
+
 #feature(img-fill("../assets/03-3-amalfi-coast/sorrento.png"),
   title: copy.sorrento.title, body: markup(copy.sorrento.body),
   url: "https://www.amalfitouristoffice.it", side: right, h: 5cm)
@@ -28,6 +28,10 @@
 #feature(img-fill("../assets/03-3-amalfi-coast/vietri-sul-mare.png"),
   title: copy.vietri.title, body: markup(copy.vietri.body),
   url: "https://www.vietrisulmare.it", side: left, h: 5cm)
+
+#feature(img-fill("../assets/03-3-amalfi-coast/cetara.png"),
+  title: copy.cetara.title, body: markup(copy.cetara.body),
+  url: "https://www.positano.com/en/e/cetara", side: right, frac: 0.5, h: 5.2cm)
 
 #pagebreak()
 
@@ -46,3 +50,7 @@
 #feature(img-fill("../assets/03-3-amalfi-coast/sal-de-riso-pastries.png"),
   title: copy.salderiso.title, body: markup(copy.salderiso.body),
   url: "https://www.pasticceriasalderiso.it/en/", side: left, h: 4.8cm)
+
+#feature(img-fill("../assets/03-3-amalfi-coast/scialatielli.png"),
+  title: copy.pasta.title, body: markup(copy.pasta.body),
+  url: "https://www.amalficoast.com", side: right, frac: 0.5, h: 5.6cm)

@@ -42,9 +42,9 @@
 #include "sections/03_3_amalfi_coast-sights.typ"                  // Amalfi (spread-band)
 #quote-interlude-text(strings.amalfi.explore)
 
-#include "sections/04_2_wedding_day.typ"                          // The Celebration
+#include "sections/04_1_wedding_day.typ"                          // The Celebration
 #pagebreak()
-#include "sections/04_1_getting_around.typ"                       // The Details
+#include "sections/04_2_getting_around.typ"                       // The Details
 #include "sections/04_3_before_you_come.typ"                      // (top-band split, self-breaks)
 
 #quote-interlude(5)                                                            // inside-cover: ivory quote

@@ -47,6 +47,8 @@ caserta:
   heading: "What to See & Where to Eat in Caserta"
   intro: |-
     Caserta is a hidden gem of Campania — a rich blend of history, culture, and gastronomy. Traces of the Roman Empire, like the _Acquedotto Carolino_ and the amphitheatre, contrast the grandeur of the _Reggia di Caserta_, which rivals _Versailles_ and is said to have far more beautiful gardens. And for food lovers this is paradise: here pizza is elevated to an art, and _Mozzarella di Bufala_ is not just a cheese but a culinary experience.
+  explore: |-
+    Give yourself half a day to wander through the Reggia di Caserta — from its magnificent palace to the endless gardens, the grand fountains and cascading waterfalls. Enjoy it slowly.
   reggia:
     title: "Reggia di Caserta"
     body: |-
@@ -59,6 +61,10 @@ caserta:
     title: "Anfiteatro Campano"
     body: |-
       A majestic Roman amphitheatre in Santa Maria Capua Vetere, second in size only to the Colosseum in Rome.
+  acquedotto:
+    title: "Acquedotto Carolino"
+    body: |-
+      A magnificent 18th-century aqueduct, built by Luigi Vanvitelli, to bring water from Mount Taburno to the gardens of the Reggia.
   masanielli:
     title: "I Masanielli — Francesco Martucci"
     body: |-
@@ -71,15 +77,17 @@ caserta:
     title: "Le Colonne"
     body: |-
       A Michelin-starred kitchen that elevates the local _Mozzarella di Bufala_ to the level of culinary art.
-  explore: |-
-    There is no limit to the surprises here — wander the grand halls of the Reggia, step back in time at the Anfiteatro Campano, lose yourself in the medieval streets of Casertavecchia, and savor the world's finest pizza.
+  chirico:
+    title: "Pasticceria Fratelli Chirico"
+    body: |-
+      Taste the authentic flavors of traditional patries at a few minutes' walk from the Reggia.
 
 napoli:
   heading: "What to See & Where to Eat in Napoli"
   intro: |-
     _Johann Wolfgang von Goethe_ wrote, "See Naples and then die." It is a city that leaves you breathless: vibrant culture, layered history, and a rhythm all its own. Take the train from Caserta, lose yourself in the historic centre, have a walk by the sea, and more.
   explore: |-
-    There is no limit to the surprises here — wander _Spaccanapoli_, meet the artisans of _San Gregorio Armeno_, stand before the _Cristo Velato_ in the Sansevero Chapel, explore the _Cursed Island of Gaiola_, and much more.
+    There is no limit to the surprises in Naples — wander _Spaccanapoli_, meet the artisans of _San Gregorio Armeno_, stand before the _Cristo Velato_ in the Sansevero Chapel, explore the _Cursed Island of Gaiola_, and much more.
   centro:
     title: "Centro Storico"
     body: |-
@@ -100,6 +108,10 @@ napoli:
     title: "Sfogliatella — Attanasio"
     body: |-
       Steps from the station, the shell-shaped _sfogliatella riccia_ comes out warm and crackling all morning long.
+  damichele:
+    title: "Pizzeria Da Michele"
+    body: |-
+      The most famous pizzeria in the world, and a must for pizza lovers. _Only for those willing to wait in line._
 
 amalfi:
   heading: "What to See & Where to Eat in Amalfi Coast"
@@ -120,8 +132,12 @@ amalfi:
     title: "Vietri sul Mare"
     body: |-
       The coast's eastern doorstep, famous for its hand-painted ceramics — the perfect, colourful souvenir to carry home.
+  cetara:
+    title: "Cetara"
+    body: |-
+      The most authentic fishing village of the region, famous for its anchovies. Don't miss the _colatura di alici_, a local anchovy sauce that is a must-try for food lovers.
   posides:
-    title: "Seafood & Pasta — our pick"
+    title: "Seafood & Pasta — Posides in Positano"
     body: |-
       A non-traditional spot we hold dear: for a light, playful, and delicious meal, try _Posides_ in Positano! Otherwise, follow your instinct — pick any restaurant with a sea view and order the _colatura di alici_ pasta or _scialatielli ai frutti di mare_, and let the evening take its time.
   granita:
@@ -132,6 +148,10 @@ amalfi:
     title: "Sal De Riso — Minori"
     body: |-
       The coast's most celebrated pasticceria, birthplace of the _delizia al limone_ and its ricotta-and-pear cakes. Pistachio lovers: the _panarea cake_ is a must.
+  pasta:
+    title: "More Pasta & Seafood — That's Amore"
+    body: |-
+      Discover all the traditional local dishes: Scialatielli all'Amalfitana, Spaghetti alla Nerano, Spaghetti with Colatura di Alici, Spaghetti al limone, Cuoppo Fritto, Cetara Anchovies, Pezzogna all'Acqua Pazza, and Totani alla Praianese.
 
 info:
   heading: "Getting Around & Where to Stay"
