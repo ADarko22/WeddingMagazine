@@ -18,7 +18,7 @@
 
 #grid(
   columns: (1.05fr, 0.95fr),
-  column-gutter: 1.2cm,
+  column-gutter: 0.8cm,
   align: (left + top, left + top),
   [
     #label(copy.timeline_title, fill: gold, size: 8.5pt)
@@ -27,7 +27,7 @@
   ],
   [
     #box(width: 100%, height: 10.6cm, clip: true, stroke: 0.6pt + gold)[
-      #image("../assets/04-info/villa-althea5.png", width: 100%, height: 100%)
+      #image("../assets/04-info/villa-althea4.png", width: 100%, height: 100%)
     ]
   ],
 )
@@ -39,19 +39,19 @@
 
 #grid(
   columns: (1fr, 1fr, 1fr),
-  column-gutter: 1cm,
+  column-gutter: 0.8cm,
   [
-    #label(copy.venue_label, fill: forest, size: 7.5pt)
+    #label(copy.venue_label, fill: forest, size: 7.2pt)
     #v(0.4em)
     #markup-narrow(copy.venue_body)
   ],
   [
-    #label(copy.shuttle_label, fill: forest, size: 7.5pt)
+    #label(copy.shuttle_label, fill: forest, size: 7.2pt)
     #v(0.4em)
     #markup-narrow(copy.shuttle_body)
   ],
   [
-    #label(copy.contact_label, fill: forest, size: 7.5pt)
+    #label(copy.contact_label, fill: forest, size: 7.2pt)
     #v(0.4em)
     #markup-narrow(copy.contact_body)
   ],

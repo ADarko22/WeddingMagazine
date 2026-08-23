@@ -18,7 +18,7 @@
 
 #grid(
   columns: (1.25fr, 0.75fr),
-  column-gutter: 1.3cm,
+  column-gutter: 1.1cm,
   align: (left + top, left + top),
   [
     #box(width: 100%, height: 8.2cm, clip: true, stroke: 0.6pt + gold)[
@@ -29,16 +29,14 @@
   ],
   [
     #par(justify: false)[#text(fill: ink)[#markup(copy.intro)]]
-    #v(0.8em)
-    #placeholder(strings.ph.detail_photo, h: 4.4cm)
   ],
 )
 
 #v(1em)
 
 #grid(
-  columns: (1fr, 1fr),
-  column-gutter: 1.4cm,
+  columns: (0.9fr, 1.1fr),
+  column-gutter: 0.8cm,
   [
     #label(copy.accommodations_title, fill: forest, size: 8pt)
     #v(0.4em)

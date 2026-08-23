@@ -37,7 +37,8 @@ cover:
 welcome:
   heading: "Benvenuti Amici e Famiglia!"
   intro: |-
-    Siamo felicissimi di darvi il benvenuto in Campania per il nostro matrimonio il *13 maggio 2028*. Questa è la terra di Napoli, della Costiera Amalfitana e della patria della pizza — con innumerevoli gemme nascoste nel mezzo. Abbiamo creato questa piccola guida perché possiate prendervi il vostro tempo: esplorate la zona, gustate la cucina locale e create ricordi indimenticabili insieme a noi.
+    Siamo felicissimi di darvi il benvenuto in Campania per il nostro matrimonio il *13 maggio 2028*. Questa è la terra di Napoli, della Costiera Amalfitana e della patria della pizza — 
+    con innumerevoli gemme nascoste nel mezzo. Abbiamo creato questa piccola guida perché possiate prendervi il vostro tempo: esplorate la zona, gustate la cucina locale e create ricordi indimenticabili insieme a noi.
   quote: |-
     «Abbiamo creato questa guida perché possiate trasformare il nostro matrimonio in una vacanza indimenticabile!»
   turn_page: |-
@@ -46,13 +47,15 @@ welcome:
 caserta:
   heading: "Cosa Vedere e Dove Mangiare a Caserta"
   intro: |-
-    Caserta è una gemma nascosta della Campania — un ricco intreccio di storia, cultura e gastronomia. Le tracce dell'Impero Romano, come l'_Acquedotto Carolino_ e l'anfiteatro, contrastano con la grandezza della _Reggia di Caserta_, che rivaleggia con _Versailles_ e si dice abbia giardini ancora più belli. E per gli amanti del cibo questo è il paradiso: qui la pizza è elevata ad arte e la _Mozzarella di Bufala_ non è solo un formaggio, ma un'esperienza culinaria.
+    Caserta è una gemma nascosta della Campania — un ricco intreccio di storia, cultura e gastronomia. Le tracce dell'Impero Romano, come l'_Acquedotto Carolino_ e l'anfiteatro, contrastano con la grandezza della _Reggia di Caserta_, 
+    che rivaleggia con _Versailles_ e si dice abbia giardini ancora più belli. E per gli amanti del cibo questo è il paradiso: qui la pizza è elevata ad arte e la _Mozzarella di Bufala_ non è solo un formaggio, ma un'esperienza culinaria.
   explore: |-
     Concediti mezza giornata per passeggiare nella Reggia di Caserta — dal magnifico palazzo ai giardini infiniti, le grandi fontane e le cascate. Goditela con calma. 
   reggia:
     title: "Reggia di Caserta"
     body: |-
-      Il gioiello di Caserta e Sito Patrimonio dell'UNESCO — il più grande palazzo reale al mondo per volume. Percorrete le sue 1.200 stanze e lo scalone monumentale, poi noleggiate una e-bike per esplorare i 3 km del Parco Reale, le sue fontane e i romantici _Giardini all'Inglese_. Dedicategli almeno mezza giornata: se lo merita.
+      Il gioiello di Caserta e Sito Patrimonio dell'UNESCO — il più grande palazzo reale al mondo per volume. Percorrete le sue 1.200 stanze e lo scalone monumentale, poi noleggiate una e-bike per esplorare i 3 km del Parco Reale, 
+      le sue fontane e i romantici _Giardini all'Inglese_. Dedicategli almeno mezza giornata: se lo merita.
   casertavecchia:
     title: "Casertavecchia"
     body: |-
@@ -85,7 +88,8 @@ caserta:
 napoli:
   heading: "Cosa Vedere e Dove Mangiare a Napoli"
   intro: |-
-    _Johann Wolfgang von Goethe_ scrisse: «Vedi Napoli e poi muori.» È una città che ti lascia senza fiato: cultura vibrante, storia stratificata e un ritmo tutto suo. Prendete il treno da Caserta, perdetevi nel centro storico, fate una passeggiata sul lungomare e molto altro.
+    _Johann Wolfgang von Goethe_ scrisse: «Vedi Napoli e poi muori.» È una città che ti lascia senza fiato: cultura vibrante, storia stratificata e un ritmo tutto suo. 
+    Prendete il treno da Caserta, perdetevi nel centro storico, fate una passeggiata sul lungomare e molto altro.
   explore: |-
     Non c'è limite alle sorprese a Napoli — passeggiate per _Spaccanapoli_, incontrate gli artigiani di _San Gregorio Armeno_, ammirate il _Cristo Velato_ nella Cappella Sansevero, esplorate l'_Isola Maledetta della Gaiola_ e molto altro.
   centro:
@@ -117,13 +121,15 @@ amalfi:
   heading: "Cosa Vedere e Dove Mangiare in Costiera Amalfitana"
   hero_title: "La Costiera Amalfitana"
   intro: |-
-    La _Costiera Amalfitana_ è un tratto di costa Patrimonio UNESCO dove villaggi color pastello si aggrappano a scogliere a picco, i limoneti profumano l'aria e ogni curva della strada apre una nuova cartolina. Premia il viaggio lento: prendete il traghetto tra i paesi, girovagate senza un piano e lasciate che sia il mare a dettare il ritmo.
+    La _Costiera Amalfitana_ è un tratto di costa Patrimonio UNESCO dove villaggi color pastello si aggrappano a scogliere a picco, i limoneti profumano l'aria e ogni curva della strada apre una nuova cartolina. 
+    Premia il viaggio lento: prendete il traghetto tra i paesi, girovagate senza un piano e lasciate che sia il mare a dettare il ritmo.
   explore: |-
     E non c'è limite alle sorprese — salpate per _Capri_, _Ischia_ o _Procida_, percorrete il _Sentiero degli Dei_ tra cielo e mare, o semplicemente lasciatevi conquistare dal fascino della costa.
   positano:
     title: "Positano"
     body: |-
-      Il villaggio più fotografato della costa — una cascata di case pastello che degradano lungo la scogliera fino alla _Spiaggia Grande_ e al mare. Salite (o scendete) i suoi vicoli a gradini tra boutique e bouganville, poi premiatevi con una granita al limone in riva al mare. Venite al tramonto e capirete ogni cartolina mai spedita da qui.
+      Il villaggio più fotografato della costa — una cascata di case pastello che degradano lungo la scogliera fino alla _Spiaggia Grande_ e al mare. Salite (o scendete) i suoi vicoli a gradini tra boutique e bouganville, 
+      poi premiatevi con una granita al limone in riva al mare. Venite al tramonto e capirete ogni cartolina mai spedita da qui.
   sorrento:
     title: "Sorrento"
     body: |-
@@ -139,7 +145,8 @@ amalfi:
   posides:
     title: "Pesce & Pasta — Posides a Positano"
     body: |-
-      Un locale non tradizionale a cui teniamo molto: per un pasto leggero, giocoso e delizioso, provate _Posides_ a Positano! Altrimenti, seguite l'istinto — scegliete un ristorante con vista sul mare e ordinate la pasta con _colatura di alici_ o gli _scialatielli ai frutti di mare_, e lasciate che la serata scorra con calma.
+      Un locale non tradizionale a cui teniamo molto: per un pasto leggero, giocoso e delizioso, provate _Posides_ a Positano! Altrimenti, seguite l'istinto — 
+      scegliete un ristorante con vista sul mare e ordinate la pasta con _colatura di alici_ o gli _scialatielli ai frutti di mare_, e lasciate che la serata scorra con calma.
   granita:
     title: "Granita al Limone & Limoncello"
     body: |-
@@ -156,7 +163,9 @@ amalfi:
 info:
   heading: "Come Muoversi e Dove Alloggiare"
   intro: |-
-    Ecco come orientarsi — tutto ciò che serve per raggiungerci ed esplorare in autonomia. Fate base a *Caserta*, poi lasciate che la costa vi tenti verso una vera vacanza. La mappa qui sotto traccia il viaggio che ci piacerebbe faceste.
+    Fate di *Caserta* la vostra base per il giorno del matrimonio, poi _lasciate che la bellezza di questa regione guidi il vostro cuore_. 
+    Prolungate il vostro soggiorno e trasformatelo in una vacanza alla scoperta di Napoli, della Costiera Amalfitana e delle Isole. 
+    La mappa disegnata qui accanto traccia il viaggio che ci piacerebbe farvi scoprire.
   map_caption: |-
     Uno schizzo di alcune delle gemme della Campania da non perdere durante la vostra visita.
   accommodations_title: "Dove Alloggiare"
@@ -167,17 +176,19 @@ info:
   transit_title: "Arrivo & Trasporti"
   transit_body: |-
     *Aeroporti* \
-    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45 min per Caserta in autobus. \
-    #link("https://www.fiumicinoexpress.com/en/")[Roma Fiumicino (FCO)] — ~3 h con autobus espresso per Caserta Nord. \
-    #link("https://www.fiumicinoexpress.com/en/")[Roma Ciampino (CIA)] — ~2 h con autobus espresso per Caserta Nord.
+    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45min per Caserta in autobus. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Fiumicino (FCO)] — ~3h con autobus per Caserta. \
+    #link("https://www.fiumicinoexpress.com/en/")[Roma Ciampino (CIA)] — ~2h con autobus per Caserta.
 
     *Come spostarsi* \
-    I treni collegano Caserta a Napoli in ~40 min; per la Costiera Amalfitana sono ideali un'auto a noleggio o i traghetti stagionali.
+    I treni collegano Caserta a Napoli in ~40 minuti; per la Costiera Amalfitana l'ideale è un'auto a noleggio.
   warning_title: "Esplorare oltre Caserta"
   warning_body: |-
-    Napoli è comodamente raggiungibile in treno, ma la *Costiera Amalfitana richiede organizzazione*: noleggiare un'auto è l'opzione più flessibile, anche se la strada costiera si affolla in alta stagione e nei weekend. In estate i traghetti sono un'alternativa panoramica. Pianificate il trasporto in anticipo e aggiungete una notte o due nei dintorni — trasformando il viaggio nella vacanza che merita di essere!
+    Napoli è facilmente raggiungibile in treno, ma la Costiera Amalfitana richiede un po' di pianificazione: noleggiare un'auto è l'opzione più flessibile. In estate, i traghetti sono un'alternativa panoramica. 
+    Organizzate gli spostamenti in anticipo e aggiungete una o due notti nei dintorni — trasformando il viaggio nella vacanza che merita di essere!
   recommendations: |-
-    Solo qualche punto di partenza, nulla di definitivo — per gli alloggi, confrontate #link("https://www.booking.com")[Booking] o #link("https://www.airbnb.com")[Airbnb] intorno a Caserta e alla Costiera Amalfitana; per i traghetti, vedete #link("https://www.travelmar.it/en/")[Travelmar]. Fate comunque le vostre ricerche e scegliete ciò che si adatta meglio al vostro viaggio.
+    Come punto di partenza per gli alloggi, confrontate #link("https://www.booking.com")[Booking] o #link("https://www.airbnb.com")[Airbnb] intorno a Caserta e alla Costiera Amalfitana; 
+    per i traghetti, vedete #link("https://www.travelmar.it/en/")[Travelmar]. Fate comunque le vostre ricerche e scegliete ciò che si adatta meglio al vostro viaggio.
 
 wedding_day:
   heading: "Il Giorno del Matrimonio"
@@ -185,16 +196,18 @@ wedding_day:
     Tutto avviene il *13 maggio 2028*. Ecco come si svolgerà la giornata, così saprete cosa aspettarvi — orari e indirizzi esatti verranno confermati più avanti.
   timeline_title: "La Giornata, Ora per Ora"
   timeline:
-    - ["16:00", "Cerimonia", "La cerimonia in chiesa — vi preghiamo di arrivare con 20 minuti di anticipo."]
-    - ["17:30", "Ricevimento", "Aperitivo e brindisi nella location del ricevimento."]
-    - ["18:30", "Cena", "Una lunga e gioiosa cena campana."]
-    - ["22:30", "Torta", "Taglio della torta e tavolo dei dolci."]
+    - ["16:00", "Cerimonia", "La cerimonia in chiesa — vi preghiamo di arrivare in anticipo."]
+    - ["17:30", "Ricevimento", "Aperitivo e brindisi presso la location."]
+    - ["18:30", "Cena", "Una gioiosa cena di tre portate."]
+    - ["22:30", "Torta", "Taglio della torta, dolci e bevande."]
     - ["23:30", "Festa", "Musica e balli fino a notte fonda."]
   details_title: "Location & Navette"
   venue_label: "Location"
   venue_body: |-
-    _Chiesa:_ Basilica di Sant'Angelo In Formis | Via Luigi Baia, 120, 81043 Capua, CE. \
-    _Ricevimento:_ Villa Althea Bellona | SP 333, 81041 Palombara, CE.
+    *_Chiesa:_* \
+    _Basilica di Sant'Angelo In Formis_, Via Luigi Baia 120, 81043 Capua. \
+    *_Location del matrimonio:_* \
+    _Villa Althea Bellona_, SP 333, 81041 Palombara.
   shuttle_label: "Navette"
   shuttle_body: |-
     Organizzeremo *navette* dal centro di Caserta alle location e ritorno. Punti di ritrovo e orari verranno comunicati più avanti.

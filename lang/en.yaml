@@ -37,7 +37,8 @@ cover:
 welcome:
   heading: "Welcome Friends & Family!"
   intro: |-
-    We are so thrilled to welcome you to Campania for our wedding on *May 13th, 2028*. This is the land of Napoli, the Amalfi Coast, and the birthplace of pizza — with countless hidden gems in between. We created this little guide so you can take your time to explore the area, enjoy the local cuisine, and make lasting memories with us.
+    We are so thrilled to welcome you to Campania for our wedding on *May 13th, 2028*. This is the land of Napoli, the Amalfi Coast, and the birthplace of pizza — with countless hidden gems in between. 
+    We created this little guide so you can take your time to explore the area, enjoy the local cuisine, and make lasting memories with us.
   quote: |-
     "We created this guide so you can turn our wedding into an unforgettable vacation!"
   turn_page: |-
@@ -46,13 +47,15 @@ welcome:
 caserta:
   heading: "What to See & Where to Eat in Caserta"
   intro: |-
-    Caserta is a hidden gem of Campania — a rich blend of history, culture, and gastronomy. Traces of the Roman Empire, like the _Acquedotto Carolino_ and the amphitheatre, contrast the grandeur of the _Reggia di Caserta_, which rivals _Versailles_ and is said to have far more beautiful gardens. And for food lovers this is paradise: here pizza is elevated to an art, and _Mozzarella di Bufala_ is not just a cheese but a culinary experience.
+    Caserta is a hidden gem of Campania — a rich blend of history, culture, and gastronomy. Traces of the Roman Empire, like the _Acquedotto Carolino_ and the amphitheatre, contrast the grandeur of the _Reggia di Caserta_, 
+    which rivals _Versailles_ and is said to have far more beautiful gardens. And for food lovers this is paradise: here pizza is elevated to an art, and _Mozzarella di Bufala_ is not just a cheese but a culinary experience.
   explore: |-
     Give yourself half a day to wander through the Reggia di Caserta — from its magnificent palace to the endless gardens, the grand fountains and cascading waterfalls. Enjoy it slowly.
   reggia:
     title: "Reggia di Caserta"
     body: |-
-      The crown jewel of Caserta and a UNESCO World Heritage Site — the largest royal palace in the world by volume. Wander its 1,200 rooms and grand staircase, then rent an e-bike to roam the 3 km Royal Park, its fountains, and the romantic _English Gardens_. Set aside at least half a day; it earns it.
+      The crown jewel of Caserta and a UNESCO World Heritage Site — the largest royal palace in the world by volume. Wander its 1,200 rooms and grand staircase, then rent an e-bike to roam the 3 km Royal Park, its fountains, 
+      and the romantic _English Gardens_. Set aside at least half a day; it earns it.
   casertavecchia:
     title: "Casertavecchia"
     body: |-
@@ -85,7 +88,8 @@ caserta:
 napoli:
   heading: "What to See & Where to Eat in Napoli"
   intro: |-
-    _Johann Wolfgang von Goethe_ wrote, "See Naples and then die." It is a city that leaves you breathless: vibrant culture, layered history, and a rhythm all its own. Take the train from Caserta, lose yourself in the historic centre, have a walk by the sea, and more.
+    _Johann Wolfgang von Goethe_ wrote, "See Naples and then die." It is a city that leaves you breathless: vibrant culture, layered history, and a rhythm all its own. 
+    Take the train from Caserta, lose yourself in the historic centre, have a walk by the sea, and more.
   explore: |-
     There is no limit to the surprises in Naples — wander _Spaccanapoli_, meet the artisans of _San Gregorio Armeno_, stand before the _Cristo Velato_ in the Sansevero Chapel, explore the _Cursed Island of Gaiola_, and much more.
   centro:
@@ -117,13 +121,15 @@ amalfi:
   heading: "What to See & Where to Eat in Amalfi Coast"
   hero_title: "The Amalfi Coast"
   intro: |-
-    The _Costiera Amalfitana_ is a UNESCO stretch of coastline where pastel villages cling to vertical cliffs, lemon groves perfume the air, and every bend of the road opens onto a new postcard. It rewards slow travel: take the ferry between towns, wander without a plan, and let the sea set the pace.
+    The _Costiera Amalfitana_ is a UNESCO stretch of coastline where pastel villages cling to vertical cliffs, lemon groves perfume the air, and every bend of the road opens onto a new postcard. 
+    It rewards slow travel: take the ferry between towns, wander without a plan, and let the sea set the pace.
   explore: |-
     And there is no limit to the surprises — sail to _Capri_, _Ischia_, or _Procida_, walk the _Path of the Gods_ between sky and sea, or simply lose yourself in the charm of the coast.
   positano:
     title: "Positano"
     body: |-
-      The coast's most photographed village — a cascade of pastel houses tumbling down the cliffside to _Spiaggia Grande_ and the sea. Climb (or descend) its stepped alleys past boutiques and bougainvillea, then reward yourself with a lemon granita by the water. Come for sunset and you will understand every postcard ever sent from here.
+      The coast's most photographed village — a cascade of pastel houses tumbling down the cliffside to _Spiaggia Grande_ and the sea. Climb (or descend) its stepped alleys past boutiques and bougainvillea, 
+      then reward yourself with a lemon granita by the water. Come for sunset and you will understand every postcard ever sent from here.
   sorrento:
     title: "Sorrento"
     body: |-
@@ -139,7 +145,8 @@ amalfi:
   posides:
     title: "Seafood & Pasta — Posides in Positano"
     body: |-
-      A non-traditional spot we hold dear: for a light, playful, and delicious meal, try _Posides_ in Positano! Otherwise, follow your instinct — pick any restaurant with a sea view and order the _colatura di alici_ pasta or _scialatielli ai frutti di mare_, and let the evening take its time.
+      A non-traditional spot we hold dear: for a light, playful, and delicious meal, try _Posides_ in Positano! Otherwise, follow your instinct — 
+      pick any restaurant with a sea view and order the _colatura di alici_ pasta or _scialatielli ai frutti di mare_, and let the evening take its time.
   granita:
     title: "Granita al Limone & Limoncello"
     body: |-
@@ -156,7 +163,9 @@ amalfi:
 info:
   heading: "Getting Around & Where to Stay"
   intro: |-
-    Here is the lay of the land — everything you need to reach us and explore on your own. Base yourself in *Caserta*, then let the coast tempt you into a proper holiday. The map below traces the journey we would love you to make.
+    Make *Caserta* your home base for the wedding day, then _let the beauty of this region guide your heart_. 
+    Extend your stay and turn it into a holiday, exploring Naples, the Amalfi Coast, and the Islands. 
+    The sketched map alongside traces the journey we would love you to discover.
   map_caption: |-
     A sketch of some of the gems in Campania you should not miss when you visit.
   accommodations_title: "Where to Stay"
@@ -167,17 +176,19 @@ info:
   transit_title: "Arrival & Transit"
   transit_body: |-
     *Airports* \
-    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45 min to Caserta by bus. \
-    #link("https://www.fiumicinoexpress.com/en/")[Rome Fiumicino (FCO)] — ~3 h via express bus to Caserta Nord. \
-    #link("https://www.fiumicinoexpress.com/en/")[Rome Ciampino (CIA)] — ~2 h via express bus to Caserta Nord.
+    #link("https://www.itabus.it/en/search?origin=NAP_T&destination=CAS_T&adults=1&children=0")[Napoli (NAP)] — ~45min to Caserta by bus. \
+    #link("https://www.fiumicinoexpress.com/en/")[Rome Fiumicino (FCO)] — ~3h via bus to Caserta. \
+    #link("https://www.fiumicinoexpress.com/en/")[Rome Ciampino (CIA)] — ~2h via bus to Caserta.
 
     *Getting around* \
-    Trains link Caserta to Napoli in ~40 min; for the Amalfi Coast a rental car or seasonal ferries work best.
+    Trains link Caserta to Napoli in ~40 minutes; for the Amalfi Coast a rental car works the best.
   warning_title: "Exploring beyond Caserta"
   warning_body: |-
-    Napoli is an easy train ride away, but the *Amalfi Coast takes planning*: renting a car is the most flexible option, though the coastal road gets crowded in peak season and at weekends. Ferries are a scenic alternative in summer. Plan your transport ahead and add a night or two nearby — turning the trip into the vacation it deserves to be!
+    Napoli is an easy train ride away, but the *Amalfi Coast requires planning*: renting a car is the most flexible option. Ferries are a scenic alternative in summer. 
+    Plan your transport ahead and add a night or two nearby — turning the trip into the vacation it deserves to be!
   recommendations: |-
-    A few starting points, not gospel — for stays, compare #link("https://www.booking.com")[Booking] or #link("https://www.airbnb.com")[Airbnb] around Caserta and the Amalfi Coast; for ferries, see #link("https://www.travelmar.it/en/")[Travelmar]. Do your own research too, and pick what suits your trip best.
+    As starting points for stays, compare #link("https://www.booking.com")[Booking] or #link("https://www.airbnb.com")[Airbnb] around Caserta and the Amalfi Coast; for ferries, see #link("https://www.travelmar.it/en/")[Travelmar]. 
+    Do your own research too, and pick what suits your trip best.
 
 wedding_day:
   heading: "The Wedding Day"
@@ -185,16 +196,18 @@ wedding_day:
     It all happens on *May 13th, 2028*. Here is the shape of the day so you know what to expect — exact times and addresses will be confirmed closer to the date.
   timeline_title: "The Day, Hour by Hour"
   timeline:
-    - ["16:00", "Ceremony", "The church ceremony — please arrive 20 minutes early."]
-    - ["17:30", "Reception", "Aperitivo and toasts at the reception venue."]
-    - ["18:30", "Dinner", "A long, joyful Campanian dinner."]
-    - ["22:30", "Cake", "Cutting of the cake and sweet table."]
+    - ["16:00", "Ceremony", "The church ceremony — please arrive early."]
+    - ["17:30", "Reception", "Aperitivo and toasts at the venue."]
+    - ["18:30", "Dinner", "A joyful 3-course dinner."]
+    - ["22:30", "Cake", "Cutting of the cake, sweets and drinks."]
     - ["23:30", "Party", "Music and dancing into the night."]
   details_title: "Venues & Shuttles"
   venue_label: "Venues"
   venue_body: |-
-    _Church:_ Basilica di Sant'Angelo In Formis | Via Luigi Baia, 120, 81043 Capua, CE. \
-    _Reception:_ Villa Althea Bellona | SP 333, 81041 Palombara, CE.
+    *_Church:_* \ 
+    _Basilica di Sant'Angelo In Formis_, Via Luigi Baia 120, 81043 Capua. \
+    *_Wedding Venue:_* \
+    _Villa Althea Bellona_, SP 333, 81041 Palombara.
   shuttle_label: "Shuttles"
   shuttle_body: |-
     We will arrange *shuttle buses* from Caserta City Centre to the venues and back. Pickup points and times will be shared closer to the date.

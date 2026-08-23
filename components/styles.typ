@@ -240,13 +240,13 @@
   for it in items {
     block(below: 1em, breakable: false)[
       #grid(
-        columns: (1.8cm, auto, 1fr),
-        column-gutter: 0.8em,
+        columns: (1.2cm, auto, 1fr),
+        column-gutter: 1.2em,
         align: (right + top, center + top, left + top),
         text(font: text-font, size: 10pt, fill: gold, tracking: 1pt)[#it.at(0)],
         text(fill: gold)[•],
         [
-          #fit-to-width(text(font: display-font, fill: forest)[#it.at(1)], size: 13pt) \
+          #fit-to-width(text(font: display-font, fill: forest)[#it.at(1)], size: 13pt)
           #text(font: text-font, size: 9pt, fill: ink)[#it.at(2)]
         ],
       )
